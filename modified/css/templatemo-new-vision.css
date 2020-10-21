@@ -21,6 +21,8 @@ https://templatemo.com/tm-542-new-vision
     --reg-text: #666;
     --accent-1: #d34632;
     --accent-2: #264763;
+    --accent-3: #f69d28;
+    --accent-dark: #311707;
     --light-bg-1: #d9e7e6;
     --light-bg-2: #ddd;
 }
@@ -97,7 +99,7 @@ p {
     text-align: center;
     text-transform: uppercase;
     font-size: 2.5rem;
-    color: #999;
+    color: var(--accent-2);
 }
 
 .tm-main-bg {
