@@ -86,8 +86,6 @@ p {
 }
 
 .tm-site-header-col {
-    display: flex;
-    justify-content: space-between;
 }
 
 .tm-site-icon { padding: 10px; color: #999; }
