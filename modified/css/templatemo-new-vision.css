@@ -91,6 +91,9 @@ p {
 .tm-site-icon { padding: 10px; color: #999; }
 
 .tm-site-name {
+    font-family: Merriweather;
+    font-weight: 900;
+    letter-spacing: 0.1em;
     text-align: center;
     text-transform: uppercase;
     font-size: 2rem;
