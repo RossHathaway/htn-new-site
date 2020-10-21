@@ -91,7 +91,6 @@ p {
 .tm-site-icon { padding: 10px; color: #999; }
 
 .tm-site-name {
-    display: inline-block;
     text-transform: uppercase;
     font-size: 2rem;
     color: #999;
