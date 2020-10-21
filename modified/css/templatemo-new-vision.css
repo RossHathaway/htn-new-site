@@ -197,11 +197,11 @@ nav > ul > li { list-style: none; }
   box-shadow: none;
   background-color: var(--light-bg-1);
 }
-
-.tm-menu-container-outer {
+/* remove below if only used in top header with nav bar */
+/* .tm-menu-container-outer {
     display: flex;
     justify-content: flex-end;
-}
+} */
 
 .tm-menu-container {
     display: inline-block;
