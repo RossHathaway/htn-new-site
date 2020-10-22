@@ -54,7 +54,7 @@ h1, h2, h3 {
 
 p {
     color: var(--reg-text);
-    line-height: 1.9;
+    line-height: 1.5;
 }
 
 .tm-color-primary { color: var(--accent-1); }
