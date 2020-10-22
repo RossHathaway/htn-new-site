@@ -276,6 +276,7 @@ nav > ul > li { list-style: none; }
 .tm-welcome-row {
     margin-top: 128px;
     margin-bottom: 10px;
+    justify-content: center;
 }
 
 .tm-welcome-row-2 { margin-bottom: 45px; }
