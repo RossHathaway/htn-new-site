@@ -63,6 +63,11 @@ figure {
     text-align: center;
 }
 
+figcaption {
+    color: var(--dark-text);
+    text-align: left;
+    padding: 20px 50px 60px;
+}
 
 .tm-color-primary { color: var(--accent-1); }
 
