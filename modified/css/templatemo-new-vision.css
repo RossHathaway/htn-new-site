@@ -290,13 +290,9 @@ nav > ul > li { list-style: none; }
 }
 
 .tm-media {
-    /* 
-    original styles in this class were only:
     display: flex;
     align-items: flex-start;
     margin-bottom: 70px; 
-    */
-
 }
 
 .tm-media img {
