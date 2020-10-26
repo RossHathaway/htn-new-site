@@ -295,7 +295,11 @@ nav > ul > li { list-style: none; }
     margin-bottom: 70px; 
 }
 
-.tm-media img {
+.tm-media-img-card {
+    margin-bottom: 30px;
+}
+
+.tm-media-img-card img {
     float: left;
 }
 
@@ -325,6 +329,7 @@ nav > ul > li { list-style: none; }
         margin-right: 0;
         margin-top: 20px;
     }
+    
 }
 
 .tm-dotted-box-container { margin-bottom: 35px; }
