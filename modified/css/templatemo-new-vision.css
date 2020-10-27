@@ -57,13 +57,13 @@ p {
     line-height: 1.5;
 }
 
-figure {
+figure.hero {
     /* our board page */
     width: 100%;
     text-align: center;
 }
 
-figure > img {
+figure.hero > img {
     width: 100%;
 }
 
