@@ -67,6 +67,10 @@ figure.hero > img {
     width: 100%;
 }
 
+img.hero {
+    max-width: 100%;
+}
+
 figcaption {
     color: var(--dark-text);
     text-align: left;
