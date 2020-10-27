@@ -63,6 +63,10 @@ figure {
     text-align: center;
 }
 
+figure > img {
+    width: 100%;
+}
+
 figcaption {
     color: var(--dark-text);
     text-align: left;
