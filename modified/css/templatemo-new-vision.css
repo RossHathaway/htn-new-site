@@ -616,6 +616,10 @@ figure.effect-honey:hover h4 i {
     max-width: 540px;
 }
 
+.tm-about-1 > img {
+    width: 100%;
+}
+
 /*---------------*/
 /***** Zoe *****/
 /*---------------*/
