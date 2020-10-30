@@ -142,6 +142,20 @@ figcaption {
     height:100%;
 }
 
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+  }
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .tm-about-bg { background-image: url(../img/new-vision-02.jpg); }
 .tm-services-bg { background-image: url(../img/new-vision-03.jpg); }
 .tm-contact-bg { background-image: url(../img/new-vision-04.jpg); }
