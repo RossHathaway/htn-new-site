@@ -128,8 +128,6 @@ figcaption {
 }
 
 .tm-main-bg {
-    position:relative;
-    padding-top:56.25%;
     margin-left: -40px;
     margin-right: -40px;
 }
@@ -142,13 +140,13 @@ figcaption {
     height:100%;
 }
 
-.videoWrapper {
+.video-wrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
     height: 0;
   }
 
-.videoWrapper iframe {
+.video-wrapper iframe {
     position: absolute;
     top: 0;
     left: 0;
