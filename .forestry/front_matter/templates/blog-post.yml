@@ -41,6 +41,7 @@ fields:
   label: Author
   description: Name of person who wrote the blog post
 pages:
+- blog/dental-care-was-offered-to-the-nuns-and-surrounding-population.md
 - blog/from-illiteracy-to-phd.md
 - blog/going-back-to-jiegu-in-august.md
 - blog/great-news.md
