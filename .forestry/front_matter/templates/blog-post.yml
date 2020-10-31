@@ -8,6 +8,12 @@ fields:
     required: false
   label: Title
   description: title of post - will be displayed on page
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
+  description: Underneath main title
 - name: date
   type: datetime
   label: Date
@@ -27,9 +33,3 @@ fields:
       format: markdown
   label: Description/summary
   description: This will be what appears on the main blog page under the post
-- name: subtitle
-  type: text
-  config:
-    required: false
-  label: Subtitle
-  description: Underneath main title
