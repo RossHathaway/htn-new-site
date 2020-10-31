@@ -27,3 +27,9 @@ fields:
       format: markdown
   label: Description/summary
   description: This will be what appears on the main blog page under the post
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
+  description: Underneath main title
