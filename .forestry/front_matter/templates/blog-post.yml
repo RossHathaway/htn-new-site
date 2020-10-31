@@ -40,13 +40,3 @@ fields:
     required: false
   label: Author
   description: Name of person who wrote the blog post
-pages:
-- blog/dental-care-was-offered-to-the-nuns-and-surrounding-population.md
-- blog/from-illiteracy-to-phd.md
-- blog/going-back-to-jiegu-in-august.md
-- blog/great-news.md
-- blog/healing-spring-water-pool-project-has-been-completed.md
-- blog/house-blessing-for-nunnery-supporters-cathy-and-larry.md
-- blog/lodroe-nyima-rinpoche-s-vision-for-the-new-medical-center.md
-- blog/thrangu-nunnery-now-has-electricity-and-running-water.md
-- blog/thrangu-nuns-build-road.md
