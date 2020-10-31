@@ -20,7 +20,7 @@ fields:
   description: date of writing
   config:
     required: false
-    date_format: MM/DD/YYY
+    date_format: MM/DD/YYYY
     time_format: 
     display_utc: false
   default: now
