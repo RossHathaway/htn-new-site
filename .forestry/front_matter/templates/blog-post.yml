@@ -34,3 +34,5 @@ fields:
       format: markdown
   label: Description/summary
   description: This will be what appears on the main blog page under the post
+pages:
+- blog/from-illiteracy-to-phd.md
