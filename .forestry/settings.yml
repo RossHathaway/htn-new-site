@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: editable/events.html
+  label: events
+  match: "**/*"
 - type: directory
   path: editable/blog
   label: blog
