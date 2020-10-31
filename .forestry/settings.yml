@@ -7,7 +7,6 @@ sections:
 - type: document
   path: editable/events.html
   label: events
-  match: "**/*"
 - type: directory
   path: editable/blog
   label: blog
