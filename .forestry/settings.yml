@@ -4,13 +4,16 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: editable/events.html
+  label: events
 - type: directory
-  path: blog
+  path: editable/blog
   label: blog
   create: all
   match: "**/*"
   exclude: index.html
-upload_dir: modified/media
+upload_dir: dist/media
 public_path: "/media"
 front_matter_path: ''
 use_front_matter_path: false
