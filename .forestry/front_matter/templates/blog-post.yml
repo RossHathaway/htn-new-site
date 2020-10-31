@@ -36,3 +36,4 @@ fields:
   description: This will be what appears on the main blog page under the post
 pages:
 - blog/from-illiteracy-to-phd.md
+- blog/great-news.md
