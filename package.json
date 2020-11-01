@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/RossHathaway/htn-new-site/issues"
   },
-  "homepage": "https://github.com/RossHathaway/htn-new-site#readme"
+  "homepage": "https://github.com/RossHathaway/htn-new-site#readme",
+  "devDependencies": {
+    "markdown-folder-to-html": "^2.4.0"
+  }
 }
