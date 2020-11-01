@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "blog": "rm -rf dist/blog && markdown-folder-to-html editable/blog && mv editable/_blog dist/blog"
+    "blog-posts": "rm -rf dist/blog && markdown-folder-to-html editable/blog && mv editable/_blog dist/blog"
   },
   "repository": {
     "type": "git",
