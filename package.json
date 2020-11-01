@@ -1,0 +1,19 @@
+{
+  "name": "help-tibetan-nuns-new-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RossHathaway/htn-new-site.git"
+  },
+  "author": "Ross Hathaway",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RossHathaway/htn-new-site/issues"
+  },
+  "homepage": "https://github.com/RossHathaway/htn-new-site#readme"
+}
