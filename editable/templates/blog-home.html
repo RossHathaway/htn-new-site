@@ -137,10 +137,14 @@ https://templatemo.com/tm-542-new-vision
                 <div class="row tm-welcome-row">
 
                     <ol style="list-style-type: none">
-                        <%- posts.map(post => `<li>
+                        <%- posts.map(post => `<li style="padding: 1rem">
+                            
                                 <a href="./${post.fileName.split('.')[0]}.html">
                                 ${post.title}
                             </a>
+                            <br>
+                            ${new Date(post.date).toDateString().slice(4)} - 
+                            ${post.description}
                         </li>`).join('') %>
                     </ol>
 
