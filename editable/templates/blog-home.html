@@ -136,13 +136,13 @@ https://templatemo.com/tm-542-new-vision
 
                 <div class="row tm-welcome-row">
 
-                    <ul>
+                    <ol style="list-style-type: none">
                         <%- posts.map(post => `<li>
                                 <a href="./${post.fileName.split('.')[0]}.html">
                                 ${post.title}
                             </a>
                         </li>`).join('') %>
-                    </ul>
+                    </ol>
 
                 </div>
 
