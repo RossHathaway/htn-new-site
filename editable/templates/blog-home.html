@@ -135,15 +135,15 @@ https://templatemo.com/tm-542-new-vision
                 </div>
 
                 <div class="row tm-welcome-row">
-                    <div class="tm-about">
 
-                        <div class="col-12 tm-media tm-media-v-center">
-                            <%- posts.map(post => `<a href="./${post.fileName.split('.')[0]}.html">
+                    <ul>
+                        <%- posts.map(post => `<li>
+                                <a href="./${post.fileName.split('.')[0]}.html">
                                 ${post.title}
-                            </a>`) %>
-                        </div>
+                            </a>
+                        </li>`) %>
+                    </ul>
 
-                    </div>
                 </div>
 
             </section>
