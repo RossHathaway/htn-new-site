@@ -5,7 +5,9 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "blog-posts": "node editable/make-blog"
+    "blog-posts": "node editable/make-blog",
+    "build-event-page": "node editable/build-events",
+    "build": "npm run blog-posts && npm run build-event-page"
   },
   "repository": {
     "type": "git",
