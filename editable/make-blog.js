@@ -6,10 +6,10 @@ const blogFileNames = fs.readdirSync(path.join(__dirname, '/blog'))
 
 // for each file
 for (let fileName of blogFileNames) {
-    // read file sync
     const postMarkdown = fs.readFileSync(path.join(__dirname, 'blog', fileName), 'utf-8')
-    console.log(postMarkdown)
-    // pass to gray matter
+    const frontmatterSplitPost = matter(postMarkdown)
+
+    console.log(frontmatterSplitPost)
     // pass that to markdown-it
     // pass both to ejs
 }
