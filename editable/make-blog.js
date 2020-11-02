@@ -15,10 +15,12 @@ const blogFileNames = fs.readdirSync(path.join(__dirname, '/blog'))
 
 for (let fileName of blogFileNames) {
     const postMarkdown = fs.readFileSync(path.join(__dirname, 'blog', fileName), 'utf-8')
+
     const frontmatterSplitPost = matter(postMarkdown)
+
     const postHtml = md.render(frontmatterSplitPost.content)
 
-    // pass both to ejs
     const output = template({ ...frontmatterSplitPost.data, postHtml })
-    console.log(output)
+
+    fs.writeFileSync(`dist/blog/${fileName.split('.')[0]}.html`, output)
 }
