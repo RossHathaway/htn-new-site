@@ -4,6 +4,9 @@ const matter = require('gray-matter')
 const md = require('markdown-it')()
 const ejs = require('ejs')
 
+const posts = []
+
+// For all posts
 const templateFile = fs.readFileSync(path.join(__dirname, 'templates/blog.html'), 'utf-8')
 
 const template = ejs.compile(templateFile, {
@@ -23,4 +26,19 @@ for (let fileName of blogFileNames) {
     const output = template({ ...frontmatterSplitPost.data, postHtml })
 
     fs.writeFileSync(`dist/blog/${fileName.split('.')[0]}.html`, output)
+
+    posts.push({ ...frontmatterSplitPost.data, fileName })
 }
+
+// For blog homepage
+ejs.renderFile(
+    path.join(__dirname, 'templates/blog-home.html'),
+    { posts },
+    { cache: true, fileName: 'blog.html' },
+    (err, result) => {
+        if (err) {
+            throw new Error(err)
+        }
+        fs.writeFileSync('dist/blog/index.html', result)
+    }
+)

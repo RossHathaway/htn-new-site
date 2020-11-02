@@ -138,7 +138,9 @@ https://templatemo.com/tm-542-new-vision
                     <div class="tm-about">
 
                         <div class="col-12 tm-media tm-media-v-center">
-                            <%- postHtml %>
+                            <%- posts.map(post => `<a href="./${post.fileName.split('.')[0]}.html">
+                                ${post.title}
+                            </a>`) %>
                         </div>
 
                     </div>
