@@ -3,7 +3,7 @@
 ---
 ## Events
 
-![](/media/celebration-of-tibet-flyer.jpg)
+![](../media/celebration-of-tibet-flyer.jpg)
 
 #### Events Calendar:
 
