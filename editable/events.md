@@ -1,6 +1,3 @@
----
-
----
 ![](../media/celebration-of-tibet-flyer.jpg)
 
 #### Events Calendar:
