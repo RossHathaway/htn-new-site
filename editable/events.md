@@ -1,6 +1,6 @@
 ![](../media/celebration-of-tibet-flyer.jpg)
 
-#### Events Calendar:
+### Events Calendar:
 
 **_The Cultural Center of Cape Cod_**_,_ 307 Old Main Street, South Yarmouth, MA
 
