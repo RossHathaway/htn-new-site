@@ -17,8 +17,8 @@ https://templatemo.com/tm-542-new-vision
 */
 
 :root {
-    --dark-text: #292929;
-    --reg-text: #666;
+    --dark-text: #311707; /*#292929;*/
+    --reg-text: #311707;/*#666;*/
     --accent-1: #d34632;
     --accent-2: #264763;
     --accent-3: #f69d28;
