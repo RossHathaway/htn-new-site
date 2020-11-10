@@ -37,6 +37,7 @@ body {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 1.4rem;
   background-color: var(--light-bg-2);
+  color: var(--dark-text);
   overflow-x: hidden;
 }
 
