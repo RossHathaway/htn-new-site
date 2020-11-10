@@ -22,6 +22,7 @@ https://templatemo.com/tm-542-new-vision
     --accent-1: #d34632;
     --accent-2: #264763;
     --accent-3: #f69d28;
+    --accent-4: #638ba5;
     --accent-dark: #311707;
     --light-bg-1: #d9e7e6;
     --light-bg-2: #ddd;
@@ -42,9 +43,13 @@ body {
 a { 
     transition: all 0.3s ease; 
     text-decoration: none;
+    color: var(--accent-2)
 }
 
-a:hover { text-decoration: none; }
+a:hover { 
+    text-decoration: none;
+    color: var(--accent-4)
+}
 button:focus { outline: none; }
 
 h1, h2, h3 {
