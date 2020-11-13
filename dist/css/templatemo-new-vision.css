@@ -23,6 +23,8 @@ https://templatemo.com/tm-542-new-vision
     --accent-2: #264763;
     --accent-3: #f69d28;
     --accent-4: #638ba5;
+    --accent-5: #5d8644;
+    --accent-6: #4a9972;
     --accent-dark: #311707;
     --light-bg-1: #d9e7e6;
     --light-bg-2: #ddd;
@@ -93,6 +95,10 @@ figcaption {
 }
 
 .tm-color-primary { color: var(--accent-1); }
+
+ul.nav.nav-tabs {
+    background-color: var(--accent-3);
+}
 
 .navbar-toggler {
     padding: 10px 15px;
@@ -195,7 +201,7 @@ nav > ul > li { list-style: none; }
 .tm-nav-link {
     font-size: 1.2rem;
     text-decoration: none;
-    color: #999;
+    /* color: #999; */
     display: inline-block;
     padding: 25px 30px;
     margin-left: 25px;
