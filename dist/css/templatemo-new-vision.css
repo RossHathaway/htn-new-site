@@ -217,9 +217,9 @@ nav > ul > li { list-style: none; }
 
 .nav-item .tm-nav-link:hover,
 .nav-item.active .tm-nav-link {
-    color: #000;
-    border-bottom: 5px solid var(--accent-1);
-    border-left: none;
+    color: var(--accent-6);
+    border: none;
+    border-bottom: 5px solid var(--accent-6);
 }
 
 @media (max-width: 992px) {
