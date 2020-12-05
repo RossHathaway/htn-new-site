@@ -136,10 +136,10 @@ ul.nav.nav-tabs {
 .tm-site-name {
     font-family: Merriweather;
     font-weight: 900;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
     text-align: center;
     text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     color: var(--accent-2);
 }
 
@@ -254,6 +254,11 @@ nav > ul > li { list-style: none; }
   outline: none;
   box-shadow: none;
   background-color: var(--light-bg-1);
+}
+
+a.nav-link.active.tm-nav-link {
+    background-color: var(--accent-4);
+    color: var(--light-bg-1);
 }
 /* remove below if only used in top header with nav bar */
 /* .tm-menu-container-outer {
