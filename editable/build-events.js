@@ -15,6 +15,6 @@ ejs.renderFile(
         if (err) {
             throw new Error(err)
         }
-        fs.writeFileSync('dist/misc/events.html', result)
+        fs.writeFileSync('dist/news/events.html', result)
     }
 )
