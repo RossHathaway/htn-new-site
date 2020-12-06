@@ -17,8 +17,12 @@ https://templatemo.com/tm-542-new-vision
 */
 
 :root {
-    --dark-text: #311707; /*#292929;*/
-    --reg-text: #311707;/*#666;*/
+    /* --dark-text: #311707;  */
+    /*#292929;*/
+    --dark-text: #162B3B;
+    /* --reg-text: #311707; */
+    /*#666;*/
+    --reg-text: #162B3B;
     --accent-1: #d34632;
     --accent-2: #264763;
     --accent-3: #f69d28;
@@ -26,7 +30,8 @@ https://templatemo.com/tm-542-new-vision
     --accent-5: #5d8644;
     --accent-6: #4a9972;
     --accent-dark: #311707;
-    --light-bg-1: #d9e7e6;
+    /* --light-bg-1: #d9e7e6; */
+    --light-bg-1: #638ba5;
     --light-bg-2: #ddd;
 }
 
