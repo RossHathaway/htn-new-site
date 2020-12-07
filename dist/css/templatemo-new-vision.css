@@ -112,6 +112,22 @@ ul.nav.nav-tabs {
     padding-right: 40px;
 }
 
+/* page specific styles */
+
+/* Donate page */
+section.donate-page-section p {
+    margin: 10px 0 20px;
+    padding: 0 10px;
+}
+
+section.donate-page-section h2 {
+    font-size: 1.25em;
+}
+
+#donate-page-top-p {
+    margin: 40px 0 60px;
+}
+
 @media (max-width: 992px) {
     .container-fluid {
         padding-left: 15px;
@@ -474,6 +490,7 @@ footer {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: right;
+    font-size: 0.7em;
 }
 
 footer a { color: var(--reg-text); }
