@@ -329,7 +329,7 @@ nav > ul > li { list-style: none; }
 
 .tm-section-header {
     display: inline-block;
-    background-color: var(--accent-2);
+    background-color: var(--accent-1);
     color: white;
     padding: 30px 90px 30px 30px;
     margin: 0;
