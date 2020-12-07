@@ -70,6 +70,10 @@ p {
     line-height: 1.5;
 }
 
+nav {
+    background-color: var(--accent-1);
+}
+
 img {
     max-width: 100%;
 }
@@ -100,10 +104,6 @@ figcaption {
 }
 
 .tm-color-primary { color: var(--accent-1); }
-
-ul.nav.nav-tabs {
-    background-color: var(--accent-3);
-}
 
 .navbar-toggler {
     padding: 10px 15px;
@@ -277,10 +277,6 @@ nav > ul > li { list-style: none; }
   background-color: var(--light-bg-1);
 }
 
-a.nav-link.active.tm-nav-link {
-    background-color: var(--accent-4);
-    color: var(--light-bg-1);
-}
 /* remove below if only used in top header with nav bar */
 /* .tm-menu-container-outer {
     display: flex;
