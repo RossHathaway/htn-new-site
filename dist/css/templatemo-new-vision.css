@@ -311,7 +311,7 @@ nav > ul > li { list-style: none; }
         right: 0;
         top: 44px;
         z-index: 1000;
-        background-color: var(--light-bg-1);
+        background-color: var(--accent-1);
         margin: 0;
         min-width: 180px;
     }
@@ -323,7 +323,7 @@ nav > ul > li { list-style: none; }
         top: 50px;
         right: 0px;
         z-index: 1000;
-        background-color: var(--light-bg-1);
+        background-color: var(--accent-1);
     }
 }
 
