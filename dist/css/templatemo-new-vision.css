@@ -22,7 +22,6 @@ https://templatemo.com/tm-542-new-vision
     --dark-text: #162B3B;
     /* --reg-text: #311707; */
     /*#666;*/
-    --reg-text: #162B3B;
     --accent-1: #d34632;
     --accent-2: #264763;
     --accent-3: #f69d28;
@@ -61,12 +60,10 @@ a:hover {
 button:focus { outline: none; }
 
 h1, h2, h3 {
-    color: var(--dark-text);
     font-weight: 400;
 }
 
 p {
-    color: var(--reg-text);
     line-height: 1.5;
 }
 
@@ -495,14 +492,13 @@ nav > ul > li { list-style: none; }
 }
 
 footer {
-    color: var(--reg-text);
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: right;
     font-size: 0.7em;
 }
 
-footer a { color: var(--reg-text); }
+footer a { color: var(--dark-text); }
 
 footer a:hover {
     color: var(--accent-1);
@@ -874,7 +870,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
     background-color: #a64b4b;
 }
 
-.tm-link { color: var(--reg-text); }
+.tm-link { color: var(--dark-text); }
 .tm-contact-box { padding: 65px; }
 
 .mapouter{
@@ -896,7 +892,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 .tm-ul-hyphen li {
     list-style-type: none;
     line-height: 1.9;
-    color: var(--reg-text);
 }
 
 .tm-ul-hyphen li:before {
