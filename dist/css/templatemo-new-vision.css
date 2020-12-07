@@ -69,6 +69,7 @@ p {
 
 div[role=doc-subtitle] {
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 nav {
