@@ -70,6 +70,10 @@ p {
     line-height: 1.5;
 }
 
+div[role=doc-subtitle] {
+    
+}
+
 nav {
     background-color: var(--accent-1);
 }
@@ -157,11 +161,10 @@ section.donate-page-section h2 {
 .tm-site-name {
     font-family: Merriweather;
     font-weight: 900;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.01em;
     text-align: center;
     text-transform: uppercase;
-    font-size: 2.25rem;
-    color: var(--accent-2);
+    font-size: 2.75rem;
 }
 
 .tm-main-bg {
