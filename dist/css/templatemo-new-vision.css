@@ -158,11 +158,10 @@ section.donate-page-section h2 {
 .tm-site-icon { padding: 10px; color: #999; }
 
 .tm-site-name {
-    font-family: Merriweather;
+    font-family: 'Langar';
     font-weight: 900;
     letter-spacing: 0.01em;
     text-align: center;
-    text-transform: uppercase;
     font-size: 2.75rem;
 }
 
