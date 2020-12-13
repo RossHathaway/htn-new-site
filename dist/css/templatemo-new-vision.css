@@ -77,6 +77,16 @@ nav {
     background-color: var(--accent-1);
 }
 
+#donate-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#donate-form > input[type=submit] {
+    
+}
+
 img {
     max-width: 100%;
 }
