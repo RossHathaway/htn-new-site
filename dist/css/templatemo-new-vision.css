@@ -166,11 +166,6 @@ section.donate-page-section h2 {
     font-size: 2.75rem;
 }
 
-.tm-main-bg {
-    margin-left: -40px;
-    margin-right: -40px;
-}
-
 .tm-main-bg > iframe {
     position:absolute;
     top:0;
@@ -183,6 +178,7 @@ section.donate-page-section h2 {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
     height: 0;
+    max-width: 1120px; /* change to match max width of nav */
   }
 
 .video-wrapper iframe {
