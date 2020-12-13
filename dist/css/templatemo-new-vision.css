@@ -236,9 +236,9 @@ nav > ul > li { list-style: none; }
 
 .nav-item .tm-nav-link:hover,
 .nav-item.active .tm-nav-link {
-    color: var(--accent-6);
+    color: var(--accent-dark);
     border: none;
-    box-shadow: inset 0 -5px var(--accent-6);
+    box-shadow: inset 0 -5px var(--accent-dark);
 }
 
 @media (max-width: 992px) {
