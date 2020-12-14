@@ -81,6 +81,16 @@ img {
     max-width: 100%;
 }
 
+#donate-btn-form {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#donate-btn-form > input[type=image] {
+    width: 150px;
+}
+
 figure.hero {
     /* our board page */
     width: 100%;
