@@ -143,7 +143,9 @@ section.donate-page-section h2 {
     }
 }
 
-.tm-site-header { padding-top: 50px; }
+.tm-site-header { 
+    padding-top: 50px; 
+}
 
 @media (max-width: 992px) {
     .tm-site-header {
@@ -158,17 +160,11 @@ section.donate-page-section h2 {
 .tm-site-icon { padding: 10px; color: #999; }
 
 .tm-site-name {
-    font-family: Merriweather;
+    font-family: 'Langar';
     font-weight: 900;
     letter-spacing: 0.01em;
     text-align: center;
-    text-transform: uppercase;
     font-size: 2.75rem;
-}
-
-.tm-main-bg {
-    margin-left: -40px;
-    margin-right: -40px;
 }
 
 .tm-main-bg > iframe {
@@ -183,6 +179,8 @@ section.donate-page-section h2 {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
     height: 0;
+    /* max-width: 1120px; change to match max width of nav */
+    max-width: 800px;
   }
 
 .video-wrapper iframe {
