@@ -364,7 +364,7 @@ nav > ul > li { list-style: none; }
 .tm-media {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 70px; 
+    margin-bottom: 10px; 
 }
 
 .tm-media-img-card {
