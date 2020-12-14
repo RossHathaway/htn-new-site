@@ -326,7 +326,7 @@ nav > ul > li { list-style: none; }
     display: inline-block;
     background-color: var(--accent-1);
     color: white;
-    padding: 30px 90px 30px 30px;
+    padding: 30px 30px 30px 30px;
     margin: 0;
     font-weight: bold;
     margin-left: auto;
