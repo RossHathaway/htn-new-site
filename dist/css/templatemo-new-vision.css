@@ -334,11 +334,6 @@ nav > ul > li { list-style: none; }
     .tm-section-header { padding: 20px; }
 }
 
-.tm-section-header-small {
-    font-size: 1.4rem;
-    padding: 25px 150px 25px 30px;
-}
-
 .tm-header-floating {
     position: absolute;
     z-index: 100;
