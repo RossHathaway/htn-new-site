@@ -87,6 +87,10 @@ img {
     right: 20px;
 }
 
+#donate-btn-form-smallscreen {
+    display: none;
+}
+
 #donate-btn-form-widescreen > input[type=image] {
     width: 160px;
 }
@@ -157,6 +161,14 @@ section.donate-page-section h2 {
     }
     #donate-btn-form-widescreen {
         display: none;
+    }
+    #donate-btn-form-smallscreen {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #donate-btn-form-smallscreen > input[type=image] {
+        width: 120px;
     }
 }
 
