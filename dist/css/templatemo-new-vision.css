@@ -81,13 +81,13 @@ img {
     max-width: 100%;
 }
 
-#donate-btn-form {
+#donate-btn-form-widescreen {
     position: absolute;
     top: 32px;
     right: 20px;
 }
 
-#donate-btn-form > input[type=image] {
+#donate-btn-form-widescreen > input[type=image] {
     width: 160px;
 }
 
@@ -155,7 +155,9 @@ section.donate-page-section h2 {
         padding-top: 30px;
         padding-bottom: 30px;
     }
-    
+    #donate-btn-form-widescreen {
+        display: none;
+    }
 }
 
 .tm-site-header { 
