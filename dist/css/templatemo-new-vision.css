@@ -146,7 +146,7 @@ section.donate-page-section h2 {
     margin: 40px 0 60px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1020px) {
     .container-fluid {
         padding-left: 15px;
         padding-right: 15px;
@@ -206,7 +206,7 @@ section.donate-page-section h2 {
 .tm-services-bg { background-image: url(../img/new-vision-03.jpg); }
 .tm-contact-bg { background-image: url(../img/new-vision-04.jpg); }
 
-@media (max-width: 992px) {
+@media (max-width: 1020px) {
     .tm-contact-bg { background-position: 80% top; }
 }
 
@@ -219,7 +219,7 @@ nav > ul > li { list-style: none; }
     border-bottom: none;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1020px) {
     .tm-nav > ul {
         flex-direction: column;
         padding-right: 0;
@@ -249,7 +249,7 @@ nav > ul > li { list-style: none; }
     box-shadow: inset 0 -5px white;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1020px) {
     .navbar-nav .tm-nav-link {
         margin-left: 0;
         margin-bottom: 10px;
@@ -294,7 +294,7 @@ nav > ul > li { list-style: none; }
     margin-right: -20px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1020px) {
     .tm-menu-container {
         position: absolute;
         right: 30px;
@@ -393,7 +393,7 @@ nav > ul > li { list-style: none; }
     width: 45%;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1020px) {
     .tm-media-body { width: auto; }
 }
 
@@ -464,7 +464,7 @@ nav > ul > li { list-style: none; }
     margin-right: auto;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1020px) {
     .tm-carousel { max-width: 800px; }
 }
 
@@ -817,7 +817,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
     margin-right: 12px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1020px) {
     .tm-approach-box {
         margin-left: auto;
         margin-right: auto;
@@ -826,7 +826,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 .tm-media-2 { margin-bottom: 54px; }
 
-@media (max-width: 992px) {
+@media (max-width: 1020px) {
     .tm-media-2 { margin-bottom: 30px; }
 }
 
@@ -907,7 +907,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
     padding-right: 75px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1020px) {
     .mapouter,
     .tm-contact-l,
     .tm-contact-r,
