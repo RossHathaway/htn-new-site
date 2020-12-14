@@ -83,12 +83,12 @@ img {
 
 #donate-btn-form {
     position: absolute;
-    top: 20px;
+    top: 32px;
     right: 20px;
 }
 
 #donate-btn-form > input[type=image] {
-    width: 150px;
+    width: 160px;
 }
 
 figure.hero {
@@ -151,17 +151,15 @@ section.donate-page-section h2 {
         padding-left: 15px;
         padding-right: 15px;
     }
-}
-
-.tm-site-header { 
-    padding-top: 30px; 
-}
-
-@media (max-width: 992px) {
     .tm-site-header {
         padding-top: 30px;
         padding-bottom: 30px;
     }
+    
+}
+
+.tm-site-header { 
+    padding-top: 30px; 
 }
 
 .tm-site-header-col {
