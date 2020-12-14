@@ -449,7 +449,7 @@ nav > ul > li { list-style: none; }
 .tm-btn-rounded { border-radius: 3px; }
 
 .tm-carousel {
-    padding-top: 40px;
+    /* padding-top: 40px; */
     padding-bottom: 35px;
     margin-left: auto;
     margin-right: auto;
