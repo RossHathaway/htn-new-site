@@ -28,6 +28,7 @@ https://templatemo.com/tm-542-new-vision
     --accent-4: #638ba5;
     --accent-5: #5d8644;
     --accent-6: #4a9972;
+    --painted-wood-bg: #498658;
     --accent-dark: #311707;
     /* --light-bg-1: #d9e7e6; */
     --light-bg-1: #638ba5;
@@ -176,7 +177,15 @@ section.donate-page-section h2 {
     padding-top: 30px; 
 }
 
+.header-painted-wood {
+    width: 100%;
+    max-height: 175px;
+    margin-bottom: 1rem;
+}
+
 .tm-site-header-col {
+    background-color: var(--painted-wood-bg);
+    background-clip: content-box;
 }
 
 .tm-site-icon { padding: 10px; color: #999; }
