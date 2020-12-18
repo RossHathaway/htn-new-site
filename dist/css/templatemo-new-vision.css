@@ -87,6 +87,7 @@ img {
     position: absolute;
     top: 32px;
     right: 20px;
+    z-index: 100;
 }
 
 #donate-btn-form-smallscreen {
