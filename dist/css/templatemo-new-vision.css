@@ -187,7 +187,8 @@ section.donate-page-section h2 {
 
 .tm-site-header-col {
     background-color: var(--painted-wood-bg);
-    background: linear-gradient(90deg, rgba(72,135,88,1) 2%, rgba(92,172,132,1) 52%, rgba(72,135,88,1) 98%);
+    /* background: linear-gradient(90deg, rgba(72,135,88,1) 2%, rgba(92,172,132,1) 52%, rgba(72,135,88,1) 98%); */
+    background: radial-gradient(rgba(72,135,88,1) white); /* rgba(92,172,132,1) */
     background-clip: content-box;
 }
 
