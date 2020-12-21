@@ -430,7 +430,7 @@ nav > ul > li { list-style: none; }
 .tm-dotted-box {
     display: flex;
     flex-direction: column;
-    border: 1px dotted #ccc;
+    background-color: var(--accent-7);
     padding: 24px;
     height: 100%;
 }
