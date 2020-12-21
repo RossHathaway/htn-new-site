@@ -443,6 +443,7 @@ nav > ul > li { list-style: none; }
 
 .tm-article-title {
     font-size: 1.3rem;
+    font-weight: bold;
     text-transform: uppercase;
     line-height: 1.5;
 }
