@@ -189,7 +189,8 @@ section.donate-page-section h2 {
 .tm-site-header-col {
     background-color: var(--painted-wood-bg);
     background: linear-gradient(90deg, #488c64, #5fad85, #488c64);
-    
+    box-shadow: inset 0 -80px 30px #34663d;
+    clip-path: content-box;
     background-clip: content-box;
 }
 
