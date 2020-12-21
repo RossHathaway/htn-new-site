@@ -214,6 +214,11 @@ section.donate-page-section h2 {
     height: 100%;
 }
 
+.tm-contact-info {
+    width: 100%;
+    font-size: 1.2rem;
+}
+
 .tm-about-bg { background-image: url(../img/new-vision-02.jpg); }
 .tm-services-bg { background-image: url(../img/new-vision-03.jpg); }
 .tm-contact-bg { background-image: url(../img/new-vision-04.jpg); }
