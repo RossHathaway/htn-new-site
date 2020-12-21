@@ -373,11 +373,6 @@ nav > ul > li { list-style: none; }
 .tm-article-link:hover .tm-article-title { color: var(--accent-1); }
 .tm-hover-color { color: var(--accent-1); }
 
-.tm-article-title {
-    margin-bottom: 30px;
-    transition: all 0.3s ease;
-}
-
 .tm-media {
     display: flex;
     align-items: flex-start;
@@ -448,7 +443,10 @@ nav > ul > li { list-style: none; }
     line-height: 1.5;
 }
 
-.tm-article-title,
+.tm-article-title-home {
+    margin-bottom: 30px;
+}
+
 .tm-article-text {
     margin-bottom: 30px;
 }
