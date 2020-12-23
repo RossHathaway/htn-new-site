@@ -123,6 +123,11 @@ figcaption {
     margin-bottom: 0.2em;
 }
 
+.tm-sponsor-page-title + ul > li {
+    list-style: none;
+    padding-left: 2rem;
+}
+
 .tm-color-primary { color: var(--accent-1); }
 
 .navbar-toggler {
