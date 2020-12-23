@@ -120,6 +120,7 @@ figcaption {
     font-size: inherit;
     line-height: inherit;
     text-decoration: underline;
+    margin-bottom: 0.2em;
 }
 
 .tm-color-primary { color: var(--accent-1); }
