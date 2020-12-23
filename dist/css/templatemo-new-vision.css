@@ -95,6 +95,11 @@ img {
     width: 160px;
 }
 
+.donate-btn-form-info-section {
+    margin-top: auto;
+    align-self: center;
+}
+
 .donate-btn-form-info-section > input[type=image] {
     width: 160px;
 }
