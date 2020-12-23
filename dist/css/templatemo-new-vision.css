@@ -117,7 +117,9 @@ figcaption {
 }
 
 .tm-sponsor-page-title {
-    margin-bottom: 15px;
+    font-size: inherit;
+    line-height: inherit;
+    text-decoration: underline;
 }
 
 .tm-color-primary { color: var(--accent-1); }
