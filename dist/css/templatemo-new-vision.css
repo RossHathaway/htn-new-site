@@ -137,6 +137,11 @@ figcaption {
     padding-left: 2rem;
 }
 
+.header-painted-wood {
+    max-width: 800px;
+    margin: 1rem 0;
+}
+
 .tm-color-primary { color: var(--accent-1); }
 
 .navbar-toggler {
