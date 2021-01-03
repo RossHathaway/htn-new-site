@@ -234,6 +234,7 @@ section.donate-page-section h2 {
 .tm-contact-info {
     width: 100%;
     font-size: 1.2rem;
+    text-align: center;
 }
 
 .tm-about-bg { background-image: url(../img/new-vision-02.jpg); }
