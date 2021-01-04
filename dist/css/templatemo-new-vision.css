@@ -29,6 +29,8 @@ https://templatemo.com/tm-542-new-vision
     --accent-5: #5d8644;
     --accent-6: #4a9972;
     --accent-7: #d9e7e6;
+    --painted-wood-bg: #529a6f;
+    /* 498658; */
     --accent-dark: #311707;
     --light-bg-1: #638ba5;
     --light-bg-2: #ddd;
@@ -85,6 +87,7 @@ img {
     position: absolute;
     top: 32px;
     right: 20px;
+    z-index: 100;
 }
 
 #donate-btn-form-smallscreen {
@@ -191,9 +194,24 @@ section.donate-page-section h2 {
 
 .tm-site-header { 
     padding-top: 30px; 
+    box-shadow: inset 0 30px 0 0 #488c64;
+}
+
+.header-painted-wood {
+    width: 100%;
+    max-height: 175px;
+    margin-bottom: 1rem;
 }
 
 .tm-site-header-col {
+    background-color: var(--painted-wood-bg);
+    background: linear-gradient(90deg, #488c64, #5fad85, #488c64);
+    box-shadow: inset 15px 0 0 var(--light-bg-1),
+                inset -15px 0 0 var(--light-bg-1),
+                inset 0 -80px 30px #34663d,
+                inset 0 60px 30px #488c64;
+    clip-path: content-box;
+    background-clip: content-box;
 }
 
 .tm-site-icon { padding: 10px; color: #999; }
