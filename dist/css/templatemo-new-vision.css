@@ -210,7 +210,6 @@ section.donate-page-section h2 {
                 inset -15px 0 0 var(--light-bg-1),
                 inset 0 -80px 30px #34663d,
                 inset 0 60px 30px #488c64;
-    clip-path: content-box;
     background-clip: content-box;
 }
 
