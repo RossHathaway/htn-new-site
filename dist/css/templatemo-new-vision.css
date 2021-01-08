@@ -104,6 +104,13 @@ img {
     width: 160px;
 }
 
+#thrangu-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 figure.hero {
     /* our board page */
     width: 100%;
