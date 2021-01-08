@@ -111,6 +111,10 @@ img {
     align-items: center;
 }
 
+#thrangu-gallery > * {
+    margin: 1rem;
+}
+
 figure.hero {
     /* our board page */
     width: 100%;
