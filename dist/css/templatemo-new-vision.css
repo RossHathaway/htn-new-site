@@ -212,13 +212,6 @@ section.donate-page-section h2 {
     margin-bottom: 1rem;
 }
 
-.footer-painted-wood {
-    width: 100%;
-    max-width: 1120px;
-    max-height: 175px;
-    /* margin-bottom: 1rem; */
-}
-
 .tm-site-header-col {
     background-color: var(--painted-wood-bg);
     background: linear-gradient(90deg, #488c64, #5fad85, #488c64);
@@ -563,6 +556,14 @@ footer {
     padding-bottom: 30px;
     text-align: right;
     font-size: 0.7em;
+}
+
+
+#footer-painted-wood {
+    width: 100%;
+    max-width: 1120px;
+    max-height: 175px;
+    /* margin-bottom: 1rem; */
 }
 
 footer a { color: var(--dark-text); }
