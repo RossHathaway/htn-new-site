@@ -552,18 +552,22 @@ nav > ul > li { list-style: none; }
 }
 
 footer {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: right;
     font-size: 0.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 40px;
 }
-
 
 #footer-painted-wood {
     width: 100%;
     max-width: 1120px;
     max-height: 175px;
-    /* margin-bottom: 1rem; */
+    margin-bottom: 1rem;
+}
+
+footer p {
+    align-self: flex-end;
 }
 
 footer a { color: var(--dark-text); }
