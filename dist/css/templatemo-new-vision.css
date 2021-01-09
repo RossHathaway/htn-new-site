@@ -568,11 +568,6 @@ footer {
 
 footer a { color: var(--dark-text); }
 
-footer a:hover {
-    color: var(--accent-1);
-    text-decoration: none;
-}
-
 /* Hover Effect */
 /* Common style */
 .grid figure {
