@@ -1,6 +1,6 @@
 const fs = require('fs')
 const path = require('path')
-const md = require('markdown-it')()
+const md = require('markdown-it')({ html: true })
 const ejs = require('ejs')
 
 const postMarkdown = fs.readFileSync(path.join(__dirname, 'events.md'), 'utf-8')
