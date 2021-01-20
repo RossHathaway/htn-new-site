@@ -11,6 +11,4 @@ Our first goal has almost been achieved! It is only by all of your heartfelt hel
 **PLEASE HELP TO LIGHTEN OUR LOAD  
 IN THE LAST STRETCH UP THE MOUNTAIN!**
 
-<figure class="blog-photo">
-
-![](/media/sittingonmountain.jpg)</figure>
+<figure class="blog-photo">![](/media/sittingonmountain.jpg)</figure>
