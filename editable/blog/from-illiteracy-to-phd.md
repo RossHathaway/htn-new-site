@@ -7,9 +7,9 @@ author: Lama Yeshe Wangmo
 
 ---
 <figure class="blog-photo">  
-![](/media/hhdl.png)_“</figure>_
+![](/media/hhdl.png)_</figure>_
 
-_Some feminists from the West could accuse me by saying, ‘The Dalai Lama is the authority but he doesn’t help the nuns.’”_
+_“Some feminists from the West could accuse me by saying, ‘The Dalai Lama is the authority but he doesn’t help the nuns.’”_
 
 It has been six decades since he escaped into India and established a government in exile, and two since he was awarded the Nobel Peace Prize, but His Holiness the Fourteenth Dalai Lama [still faces the charge that the Buddhist tradition](https://info-buddhism.com/Interview_Dalai_Lama_about_the_Full_Ordination_of_Women.html) he represents does not give nuns the same rights as monks.
 
