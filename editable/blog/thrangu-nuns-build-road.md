@@ -6,7 +6,7 @@ description: pictures of Nuns helping rebuild a road
 author: HTN Staff
 
 ---
-On [May 8, 2013](https://noteap.com/helptibetannuns.org/2013/05/08/thrangu-nuns-build-road/)
+On May 8, 2013,
 
 Undaunted, the Thrangu Nuns help to repair a road near their nunnery:
 
@@ -30,6 +30,4 @@ Undaunted, the Thrangu Nuns help to repair a road near their nunnery:
 
 </figure>
 
-  
-  
- </div>
+</div>
