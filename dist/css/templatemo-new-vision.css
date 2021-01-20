@@ -257,6 +257,11 @@ section.donate-page-section h2 {
     height: 100%;
 }
 
+.blog-photo {
+    text-align: center;
+    margin: 15px 0;
+}
+
 .tm-contact-info {
     width: 100%;
     font-size: 1.2rem;
