@@ -8,7 +8,7 @@ author: HTN Staff
 ---
 _The following interview was conducted on September 13, 2013 in upstate New York. Lama Lodro Lhamo translated (seated to the right of Lodroe Nyima Rinpoche in the photo below):_
 
-<figure>
+<figure style="text-align: center;">
 
 ![](/media/3-Lamas.jpeg)</figure>
 
