@@ -8,7 +8,9 @@ author: HTN Staff
 ---
 _The following interview was conducted on September 13, 2013 in upstate New York. Lama Lodro Lhamo translated (seated to the right of Lodroe Nyima Rinpoche in the photo below):_
 
-<figure>![](/media/3-Lamas.jpeg)</figure>
+<figure>
+
+![](/media/3-Lamas.jpeg)</figure>
 
 **_1) Rinpoche, for the edification of the western supporters of Help Tibetan Nuns for Thrangu Nunnery, would you please talk about your plans for the new Medical Center? What do you envision for the Medical Center at the site of the nunnery? Could you describe what you would like that to become?_**
 
