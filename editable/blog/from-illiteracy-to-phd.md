@@ -6,7 +6,9 @@ description: Article from The Wire on gender's effects in Buddhist monasticism
 author: Lama Yeshe Wangmo
 
 ---
-<figure class="blog-photo">  
+<figure class="blog-photo">
+
+  
 ![](/media/hhdl.png)_</figure>_
 
 _“Some feminists from the West could accuse me by saying, ‘The Dalai Lama is the authority but he doesn’t help the nuns.’”_
