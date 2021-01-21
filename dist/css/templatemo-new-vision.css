@@ -115,6 +115,20 @@ img {
     margin: 1rem;
 }
 
+@media (max-width: 1196px) {
+    #thrangu-gallery > figure:first-child {
+        order: 1;
+    }
+
+    #thrangu-gallery > figure:last-child {
+        order: 2;
+    }
+
+    #thrangu-gallery > figure:nth-of-type(2) {
+        order: 3;
+    }
+}
+
 figure.hero {
     /* our board page */
     width: 100%;
