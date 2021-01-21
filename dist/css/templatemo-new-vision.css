@@ -259,7 +259,11 @@ section.donate-page-section h2 {
 
 .blog-photo {
     text-align: center;
-    margin: 15px 0;
+    margin-bottom: 30px;
+}
+
+.tm-blog-footer {
+    margin-top: 45px;
 }
 
 .tm-contact-info {
