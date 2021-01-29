@@ -299,15 +299,8 @@ nav > ul > li { list-style: none; }
 .tm-nav > ul {
     display: flex;
     flex-direction: row;
-    padding-right: 20px;
+    /* padding-right: 20px; */
     border-bottom: none;
-}
-
-@media (max-width: 1020px) {
-    .tm-nav > ul {
-        flex-direction: column;
-        padding-right: 0;
-    }
 }
 
 .tm-nav-link {
@@ -316,6 +309,16 @@ nav > ul > li { list-style: none; }
     display: inline-block;
     margin-left: 25px;
     border-bottom: 5px solid transparent;
+}
+
+.tm-nav-link:first-child {
+    margin-left: 0;
+}
+
+@media (max-width: 1020px) {
+    .tm-nav > ul {
+        flex-direction: column;
+    }
 }
 
 @media (min-width: 1080px) {
