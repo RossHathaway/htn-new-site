@@ -280,6 +280,10 @@ section.donate-page-section h2 {
     margin-top: 45px;
 }
 
+.tm-blog-main p {
+    margin-bottom: 10px;
+}
+
 .tm-contact-info {
     width: 100%;
     font-size: 1.2rem;
