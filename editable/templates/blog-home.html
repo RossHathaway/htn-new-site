@@ -25,15 +25,12 @@
     <div class="container-fluid">
         <div class="tm-site-header">
 
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"
-                id="donate-btn-form-widescreen">
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="V7CZQXJYQ89VC">
-
-                <!-- src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" -->
+            <form action="https://www.paypal.com/donate" method="post" target="_top" id="donate-btn-form-widescreen">
+                <input type="hidden" name="hosted_button_id" value="72MBFD3XEAHJY" />
                 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0"
-                    name="submit" alt="PayPal - The safer, easier way to pay online!">
-                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    name="submit" title="PayPal - The safer, easier way to pay online!"
+                    alt="Donate with PayPal button" />
+                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
             </form>
             <div class="row">
                 <div class="col-12 tm-site-header-col">
@@ -140,16 +137,14 @@
 
                         </div>
 
-                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"
+                        <form action="https://www.paypal.com/donate" method="post" target="_top"
                             id="donate-btn-form-smallscreen">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="V7CZQXJYQ89VC">
-
-                            <!-- src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" -->
+                            <input type="hidden" name="hosted_button_id" value="72MBFD3XEAHJY" />
                             <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
-                                border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
-                                height="1">
+                                border="0" name="submit" title="PayPal - The safer, easier way to pay online!"
+                                alt="Donate with PayPal button" />
+                            <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1"
+                                height="1" />
                         </form>
 
                     </nav>
@@ -171,19 +166,16 @@
                 <div class="row tm-welcome-row">
 
                     <ol style="list-style-type: none">
-                        <%- posts
-                        .sort((first, second) => {
-                            return first.date < second.date ? 1 : -1
-                        })
-                        .map(post => `<li style="padding: 1rem">
-                            
-                                <a href="./${post.fileName.split('.')[0]}.html" style="font-size: 1.6rem;">
-                                ${post.title}
-                            </a>
-                            <br>
-                            ${new Date(post.date).toDateString().slice(4)} - 
-                            ${post.description}
-                        </li>`).join('') %>
+                        <%- posts .sort((first, second)=> {
+                            return first.date < second.date ? 1 : -1 }) .map(post=> `<li style="padding: 1rem">
+
+                                    <a href="./${post.fileName.split('.')[0]}.html" style="font-size: 1.6rem;">
+                                        ${post.title}
+                                    </a>
+                                    <br>
+                                    ${new Date(post.date).toDateString().slice(4)} -
+                                    ${post.description}
+                                </li>`).join('') %>
                     </ol>
 
                 </div>
