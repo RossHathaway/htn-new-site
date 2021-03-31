@@ -303,22 +303,6 @@ section.donate-page-section h2 {
     text-align: center;
 }
 
-.tm-about-bg {
-    background-image: url(../img/new-vision-02.jpg);
-}
-.tm-services-bg {
-    background-image: url(../img/new-vision-03.jpg);
-}
-.tm-contact-bg {
-    background-image: url(../img/new-vision-04.jpg);
-}
-
-@media (max-width: 1020px) {
-    .tm-contact-bg {
-        background-position: 80% top;
-    }
-}
-
 nav > ul > li {
     list-style: none;
 }
