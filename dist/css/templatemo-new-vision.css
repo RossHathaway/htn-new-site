@@ -166,20 +166,6 @@ figcaption {
 
 /* page specific styles */
 
-/* Donate page */
-section.donate-page-section p {
-    margin: 10px 0 20px;
-    padding: 0 10px;
-}
-
-section.donate-page-section h2 {
-    font-size: 1.25em;
-}
-
-#donate-page-top-p {
-    margin: 40px 0 60px;
-}
-
 @media (max-width: 1096px) {
     .container-fluid {
         padding-left: 15px;
