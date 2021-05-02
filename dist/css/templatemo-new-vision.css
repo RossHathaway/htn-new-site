@@ -105,6 +105,10 @@ img {
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+
+    -webkit-box-shadow: 2px 2px 2px #e08104, 2px 2px 2px #e08104;
+    -moz-box-shadow: 2px 2px 2px #e08104, 2px 2px 2px #e08104;
+    box-shadow: 2px 2px 2px #e08104, 2px 2px 2px #e08104;
 }
 
 .paypal-btn:active {
