@@ -96,10 +96,15 @@ img {
 
 .paypal-btn {
     background-color: var(--accent-3);
+    color: var(--dark-text);
     width: 100%;
     font-weight: bold;
     outline: none;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .paypal-btn:active {
@@ -112,8 +117,13 @@ img {
 }
 
 .paypal-btn.big {
-    width: 160px;
+    width: 10rem;
     border-radius: 40px;
+}
+
+.paypal-btn-link-svg {
+    color: var(--dark-text);
+    width: 1.2rem;
 }
 
 #thrangu-gallery {
