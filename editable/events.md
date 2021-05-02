@@ -1,5 +1,7 @@
 <h3 style="text-align:center">Events Calendar</h3>
 
+<div style="text-align:center">Due to the pandemic events are postponed until further notice.</div>
+
 <hr>
 <h4 style="text-align:center">2019</h4>
 <hr>
