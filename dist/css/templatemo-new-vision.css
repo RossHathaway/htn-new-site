@@ -154,6 +154,11 @@ img {
     color: var(--accent-4);
 }
 
+.tm-link-card-bottom {
+    margin-top: auto;
+    align-self: center;
+}
+
 #thrangu-gallery {
     display: flex;
     justify-content: space-around;
