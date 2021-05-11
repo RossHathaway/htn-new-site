@@ -14,7 +14,7 @@
     --painted-wood-bg: #529a6f;
     /* 498658; */
     --accent-dark: #311707;
-    --light-bg-1: #638ba5;
+    --light-bg-1: white /*#638ba5*/;
     --light-bg-2: #ddd;
 }
 
