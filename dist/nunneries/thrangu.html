@@ -1,298 +1,575 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Help Tibetan Nuns | Thrangu</title>
 
-    <title>Help Tibetan Nuns | Thrangu</title>
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Langar|Open+Sans:400,800|Merriweather:wght@900&display=swap"
-        rel="stylesheet" />
-    <!-- https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans -->
-    <link href="../css/all.min.css" rel="stylesheet" /> <!-- https://fontawesome.com/ -->
-    <link href="../slick/slick.css" rel="stylesheet" /> <!-- https://kenwheeler.github.io/slick/ -->
-    <link href="../slick/slick-theme.css" rel="stylesheet" />
-    <link href="../css/bootstrap.min.css" rel="stylesheet" /> <!-- https://getbootstrap.com -->
-    <link href="../css/templatemo-new-vision.css" rel="stylesheet" />
-    <!--
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Langar|Open+Sans:400,800|Merriweather:wght@900&display=swap"
+            rel="stylesheet"
+        />
+        <!-- https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans -->
+        <link href="../css/all.min.css" rel="stylesheet" />
+        <!-- https://fontawesome.com/ -->
+        <link href="../slick/slick.css" rel="stylesheet" />
+        <!-- https://kenwheeler.github.io/slick/ -->
+        <link href="../slick/slick-theme.css" rel="stylesheet" />
+        <link href="../css/bootstrap.min.css" rel="stylesheet" />
+        <!-- https://getbootstrap.com -->
+        <link href="../css/templatemo-new-vision.css" rel="stylesheet" />
+        <!--
 
 New Vision Template
 
 https://templatemo.com/tm-542-new-vision
 
 -->
-</head>
+    </head>
 
-<body>
+    <body>
+        <!-- Page Header -->
+        <div class="container-fluid">
+            <div class="tm-site-header">
+                <form
+                    action="https://www.paypal.com/donate"
+                    method="post"
+                    target="_top"
+                    id="donate-btn-form-widescreen"
+                >
+                    <input
+                        type="hidden"
+                        name="hosted_button_id"
+                        value="72MBFD3XEAHJY"
+                    />
+                    <button
+                        class="paypal-btn big"
+                        border="0"
+                        name="submit"
+                        title="PayPal - The safer, easier way to pay online!"
+                        alt="Donate with PayPal button"
+                    >
+                        Donate
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 167.6 166.6"
+                            class="paypal-btn-link-svg"
+                        >
+                            <g
+                                fill="none"
+                                stroke="var(--dark-text)"
+                                stroke-width="20"
+                                stroke-linecap="round"
+                            >
+                                <path
+                                    d="M132.5 80.3v54.4c0 12.1-9.8 22-22 22H32c-12.1 0-21.9-9.9-21.9-22V56a22 22 0 0122-22h54.8"
+                                />
+                                <path
+                                    d="M71.7 96.2L136.2 32l21.4-22M157.6 10h-46.3M157.6 10v46.3"
+                                />
+                            </g>
+                        </svg>
+                    </button>
+                </form>
+                <div class="row">
+                    <div class="col-12 tm-site-header-col">
+                        <div class="tm-site-header-left">
+                            <h1 class="tm-site-name">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 480 53"
+                                    style="max-width: 480px"
+                                    fill="var(--dark-text)"
+                                >
+                                    <text x="5" y="40" style="font-size: 44px">
+                                        Help Tibetan Nuns, Inc.
+                                    </text>
+                                </svg>
+                            </h1>
+                            <div role="doc-subtitle">
+                                Supporting Tibetan Buddhist Nuns of the
+                                Himalayan Region
+                            </div>
+                        </div>
 
-    <!-- Page Header -->
-    <div class="container-fluid">
-        <div class="tm-site-header">
+                        <img
+                            class="header-painted-wood"
+                            src="../media/painted-wood-cropped-3.png"
+                            alt=""
+                        />
 
-            <form action="https://www.paypal.com/donate" method="post" target="_top" id="donate-btn-form-widescreen">
-                <input type="hidden" name="hosted_button_id" value="72MBFD3XEAHJY" />
-                <button  class="paypal-btn big" border="0"
-                    name="submit" title="PayPal - The safer, easier way to pay online!"
-                    alt="Donate with PayPal button">
-                Donate
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.6 166.6" class="paypal-btn-link-svg"><g fill="none" stroke="var(--dark-text)" stroke-width="20" stroke-linecap="round"><path d="M132.5 80.3v54.4c0 12.1-9.8 22-22 22H32c-12.1 0-21.9-9.9-21.9-22V56a22 22 0 0122-22h54.8"/><path d="M71.7 96.2L136.2 32l21.4-22M157.6 10h-46.3M157.6 10v46.3"/></g></svg>
-                </button>
-            </form>
+                        <!--Navbar-->
+                        <nav class="navbar navbar-expand-lg">
+                            <!-- Collapse Button -->
+                            <button
+                                class="navbar-toggler toggler-example"
+                                type="button"
+                                data-toggle="collapse"
+                                data-target="#navbarSupportedContent1"
+                                aria-controls="navbarSupportedContent1"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation"
+                            >
+                                <span class="dark-blue-text"
+                                    ><i class="fas fa-bars fa-1x"></i
+                                ></span>
+                            </button>
+
+                            <!-- Collapsible Content -->
+                            <div
+                                class="collapse navbar-collapse tm-nav"
+                                id="navbarSupportedContent1"
+                                style="justify-content: center"
+                            >
+                                <!-- Links -->
+                                <ul class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link tm-nav-link"
+                                            href="../index.html"
+                                            >Home</a
+                                        >
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a
+                                            class="nav-link dropdown-toggle tm-nav-link"
+                                            data-toggle="dropdown"
+                                            href="#"
+                                            role="button"
+                                            aria-haspopup="true"
+                                            aria-expanded="false"
+                                            >About Us</a
+                                        >
+                                        <div class="dropdown-menu">
+                                            <a
+                                                class="dropdown-item"
+                                                href="../about/our-story.html"
+                                                >Our Story</a
+                                            >
+                                            <a
+                                                class="dropdown-item"
+                                                href="../about/board.html"
+                                                >Our Board</a
+                                            >
+                                            <a
+                                                class="dropdown-item"
+                                                href="../about/call-to-action.html"
+                                            >
+                                                Call to Action
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a
+                                            class="nav-link dropdown-toggle tm-nav-link"
+                                            href="#"
+                                            data-toggle="dropdown"
+                                            href="#"
+                                            role="button"
+                                            aria-haspopup="true"
+                                            aria-expanded="false"
+                                        >
+                                            Nunneries
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a
+                                                class="dropdown-item"
+                                                href="../nunneries/thrangu.html"
+                                            >
+                                                Thrangu Kong Jo Sherab Ling
+                                            </a>
+                                            <a
+                                                class="dropdown-item"
+                                                href="../nunneries/tilokpur.html"
+                                            >
+                                                Tilokpur
+                                            </a>
+                                            <a
+                                                class="dropdown-item"
+                                                href="../nunneries/palchen-chosling-lachi.html"
+                                            >
+                                                Palchen Chosling Lachi
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a
+                                            class="nav-link dropdown-toggle tm-nav-link"
+                                            href="#"
+                                            data-toggle="dropdown"
+                                            href="#"
+                                            role="button"
+                                            aria-haspopup="true"
+                                            aria-expanded="false"
+                                        >
+                                            How To Help
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a
+                                                class="dropdown-item"
+                                                href="../help/sponsor.html"
+                                            >
+                                                Sponsoring Nuns
+                                            </a>
+                                            <a
+                                                class="dropdown-item"
+                                                href="../help/donate.html"
+                                            >
+                                                Donate
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a
+                                            class="nav-link dropdown-toggle tm-nav-link"
+                                            href="#"
+                                            data-toggle="dropdown"
+                                            href="#"
+                                            role="button"
+                                            aria-haspopup="true"
+                                            aria-expanded="false"
+                                        >
+                                            News
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a
+                                                class="dropdown-item"
+                                                href="../blog/index.html"
+                                            >
+                                                Blog
+                                            </a>
+                                            <a
+                                                class="dropdown-item"
+                                                href="../news/gallery.html"
+                                            >
+                                                Gallery
+                                            </a>
+                                            <a
+                                                class="dropdown-item"
+                                                href="../news/events.html"
+                                            >
+                                                Events
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link tm-nav-link"
+                                            href="../contact.html"
+                                            >Contact</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <form
+                                action="https://www.paypal.com/donate"
+                                method="post"
+                                target="_top"
+                                id="donate-btn-form-smallscreen"
+                            >
+                                <input
+                                    type="hidden"
+                                    name="hosted_button_id"
+                                    value="72MBFD3XEAHJY"
+                                />
+                                <button
+                                    class="paypal-btn big"
+                                    border="0"
+                                    name="submit"
+                                    title="PayPal - The safer, easier way to pay online!"
+                                    alt="Donate with PayPal button"
+                                >
+                                    Donate
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 167.6 166.6"
+                                        class="paypal-btn-link-svg"
+                                    >
+                                        <g
+                                            fill="none"
+                                            stroke="var(--dark-text)"
+                                            stroke-width="20"
+                                            stroke-linecap="round"
+                                        >
+                                            <path
+                                                d="M132.5 80.3v54.4c0 12.1-9.8 22-22 22H32c-12.1 0-21.9-9.9-21.9-22V56a22 22 0 0122-22h54.8"
+                                            />
+                                            <path
+                                                d="M71.7 96.2L136.2 32l21.4-22M157.6 10h-46.3M157.6 10v46.3"
+                                            />
+                                        </g>
+                                    </svg>
+                                </button>
+                            </form>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
             <div class="row">
-                <div class="col-12 tm-site-header-col">
-                    <div class="tm-site-header-left">
-                        <h1 class="tm-site-name">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 53" style="max-width: 480px;"
-                                fill="var(--dark-text)">
+                <div class="col-12">
+                    <img
+                        src="../media/many-nuns-on-steps.jpeg"
+                        alt="Nuns on the steps of Thrangu Nunnery"
+                        class="hero"
+                    />
+                </div>
+            </div>
 
-                                <text x="5" y="40" style="font-size: 44px;">
-                                    Help Tibetan Nuns, Inc.
-                                </text>
-                            </svg>
-                        </h1>
-                        <div role="doc-subtitle">
-                            Supporting Tibetan
-                            Buddhist Nuns of the
-                            Himalayan Region
+            <!-- Main -->
+            <main>
+                <!-- Welcome section -->
+                <section class="tm-welcome">
+                    <div class="row">
+                        <div class="col-12" style="text-align: center">
+                            <h2 class="tm-section-header">
+                                Thrangu Kong Jo Sherab Ling Nunnery
+                            </h2>
                         </div>
                     </div>
 
-                    <img class="header-painted-wood" src="../media/painted-wood-cropped-3.png" alt="" />
+                    <figure class="hero">
+                        <img src="../media/thrangu-gompa-map.png" />
+                        <figcaption>
+                            Thrangu Nunnery approximate location in Kham,
+                            Eastern Tibet
+                        </figcaption>
+                    </figure>
 
+                    <div class="row tm-welcome-row" style="margin-top: 0">
+                        <div class="tm-about">
+                            <div class="col-12 tm-media tm-media-v-center">
+                                <p>
+                                    Thrangu Kong Jo Sherab Ling Nunnery is an
+                                    affiliate of Thrangu Monastery in Kham,
+                                    Eastern Tibet. This thriving Buddhist
+                                    community houses over 100 nuns in Yushu,
+                                    Qinghai, near the town of Jiegu.
+                                </p>
+                            </div>
 
-                    <!--Navbar-->
-                    <nav class="navbar navbar-expand-lg">
-
-                        <!-- Collapse Button -->
-                        <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1"
-                            aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
-                                    class="fas fa-bars fa-1x"></i></span></button>
-
-                        <!-- Collapsible Content -->
-                        <div class="collapse navbar-collapse tm-nav" id="navbarSupportedContent1"
-                            style="justify-content: center;">
-
-                            <!-- Links -->
-                            <ul class="nav nav-tabs">
-                                <li class="nav-item">
-                                    <a class="nav-link tm-nav-link" href="../index.html">Home</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle tm-nav-link" data-toggle="dropdown" href="#"
-                                        role="button" aria-haspopup="true" aria-expanded="false">About Us</a>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="../about/our-story.html">Our Story</a>
-                                        <a class="dropdown-item" href="../about/board.html">Our Board</a>
-                                        <a class="dropdown-item" href="../about/call-to-action.html">
-                                            Call to Action
-                                        </a>
+                            <!-- two-column image section -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="tm-about-1">
+                                        <img
+                                            src="../media/Lodroe-Nyima-Rinpoche.png"
+                                            alt="Image"
+                                            class="img-fluid mb-5"
+                                        />
+                                        <p>
+                                            The nunnery is in a very remote
+                                            area. The nuns are poor and
+                                            currently have no source of income
+                                            other than what they are able to
+                                            obtain by begging and what their
+                                            families provide. Under the
+                                            direction of Lodroe Nyima Rinpoche,
+                                            they are currently looking at ways
+                                            to become self-sustaining while
+                                            simultaneously supplying some of the
+                                            crucial needs of the local
+                                            community.
+                                        </p>
                                     </div>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle tm-nav-link" href="#" data-toggle="dropdown"
-                                        href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                        Nunneries
-                                    </a>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="../nunneries/thrangu.html">
-                                            Thrangu Kong Jo Sherab Ling
-                                        </a>
-                                        <a class="dropdown-item" href="../nunneries/tilokpur.html">
-                                            Tilokpur
-                                        </a>
-                                        <a class="dropdown-item" href="../nunneries/palchen-chosling-lachi.html">
-                                            Palchen Chosling Lachi
-                                        </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="tm-about-1">
+                                        <img
+                                            src="../media/pool-2.png"
+                                            alt="Image"
+                                            class="img-fluid mb-5"
+                                        />
+                                        <p>
+                                            One way they have started supporting
+                                            themselves is by operating a
+                                            spring-fed swimming pool, which is
+                                            located right next to the monastery.
+                                            Donations from Help Tibetan Nuns,
+                                            Inc. made the transformation of this
+                                            naturally occurring healing spring
+                                            into a Olympic-sized swimming pool
+                                            possible. There is also a plan to
+                                            build a medical clinic and train the
+                                            nuns to provide care for the local
+                                            community.
+                                        </p>
                                     </div>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle tm-nav-link" href="#" data-toggle="dropdown"
-                                        href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                        How To Help
-                                    </a>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="../help/sponsor.html">
-                                            Sponsoring Nuns
-                                        </a> <a class="dropdown-item" href="../help/donate.html">
-                                            Donate
-                                        </a>
-
-
-                                    </div>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle tm-nav-link" href="#" data-toggle="dropdown"
-                                        href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                        News
-                                    </a>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="../blog/index.html">
-                                            Blog
-                                        </a>
-                                        <a class="dropdown-item" href="../news/gallery.html">
-                                            Gallery
-                                        </a>
-                                        <a class="dropdown-item" href="../news/events.html">
-                                            Events
-                                        </a>
-                                    </div>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link tm-nav-link" href="../contact.html">Contact</a>
-                                </li>
-                            </ul>
-
+                                </div>
+                                <!-- end two-column image section -->
+                            </div>
+                            <div class="col-12 tm-media tm-media-v-center">
+                                <p>
+                                    Since its founding in 2011, Help Tibetan
+                                    Nuns, Inc. has been supporting the Thrangu
+                                    Kong Jo Sherab Ling Nunnery, and there is
+                                    still so much more to be done. Each year we
+                                    have given funds to support their most
+                                    critical needs.
+                                </p>
+                            </div>
                         </div>
+                    </div>
+                </section>
 
-                        <form action="https://www.paypal.com/donate" method="post" target="_top" id="donate-btn-form-smallscreen">
-                            <input type="hidden" name="hosted_button_id" value="72MBFD3XEAHJY" />
-                            <button  class="paypal-btn big" border="0"
-                                name="submit" title="PayPal - The safer, easier way to pay online!"
-                                alt="Donate with PayPal button">
-                            Donate
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.6 166.6" class="paypal-btn-link-svg"><g fill="none" stroke="var(--dark-text)" stroke-width="20" stroke-linecap="round"><path d="M132.5 80.3v54.4c0 12.1-9.8 22-22 22H32c-12.1 0-21.9-9.9-21.9-22V56a22 22 0 0122-22h54.8"/><path d="M71.7 96.2L136.2 32l21.4-22M157.6 10h-46.3M157.6 10v46.3"/></g></svg>
+                <section>
+                    RAISING AN AUSPICIOUS GOLDEN ROOF The nuns of Thrangu
+                    Nunnery in Yushu, Tibet are seeking funds for a new roof for
+                    their temple. The current roof is leaking, damaging the
+                    thangkas (traditional sacred paintings) and the imagery on
+                    the walls of the shrine rooms. A new roof - copper painted a
+                    golden color, including grading, insulation, and
+                    weatherizing - would protect the building, bring it into
+                    line with other monasteries and nunneries (which are
+                    typically golden-roofed), and support them nuns' practice of
+                    the dharma. There is a tradition in Tibet to place a
+                    Serkhebs, or golden roof, with Gendzira, or cupola, on top
+                    of monastery shrine buildings. The golden top represents the
+                    five Buddha families. In its most elaborate form, the roof
+                    has a bell shaped cupola which includes: a lotus topped
+                    wheel, which represents Buddha Vairocana; a bell atop the
+                    wheel, representing Buddha Amoghasidhi; an eight-petalled
+                    lotus on top of that, representing the Buddha Amitabha; a
+                    vase on top of that, representing Buddha Akshobhya; and a
+                    jewel at the very top, representing Buddha Ratnasambhava.
+                    The abbreviated or simplified form of cupola, called the
+                    vase form, is also common and includes three buddhas,
+                    representing enlightened body, speech, and mind: a lotus
+                    with a vase on top, representing Buddha Vairocana, topped by
+                    an eight petalled lotus representing Buddha Amitabha, and a
+                    jewel at the top representing Buddha Akshobhya. The benefit
+                    of raising a golden Gendzira is mentioned by Jamgon Kongtrul
+                    Lodro Thaye in his commentary on offering and consecrating
+                    mantras. He wrote that if the Gendzira is properly
+                    consecrated by means of the generation and dissolution of
+                    the general and particular of the three roots, it will
+                    pacify all the harms in that area and gather vast prosperity
+                    and support the virtue of humans, nagas (local spirits), and
+                    that of the gods. Also, the abbot of Ga Zuru Monastery,
+                    disciple of Jamgon Lodro Thaye, khenpo Konchok Tenzin stated
+                    in the commentary of Chakrasamvara, the roof that covers the
+                    monastery symbolizes the purification of the suffering of
+                    Samsara for all beings. And the Gendzira ornamented on top
+                    of the roof representing the qualities of all the Buddhas.
+                    It it thus clear that supporting the Thrangu nuns' golden
+                    roof project is a way to bring great benefit for the world
+                    in general and especially to the town! The Current Cost
+                    Estimation for Yushu Thrangu Nunnery Project: The total cost
+                    needed for 2,393 square tubes of various sizes (unit price
+                    330 rmb each), labor fee and other mattnals is 789,690 RMB.
+                </section>
+
+                <!-- Featured -->
+                <section>
+                    <div class="row">
+                        <div class="col-12" style="text-align: center">
+                            <h2 class="tm-section-header">
+                                Nuns Building a Community Road at Thrangu
+                            </h2>
+                        </div>
+                    </div>
+
+                    <!-- Carousel -->
+                    <div id="thrangu-gallery">
+                        <figure>
+                            <img
+                                src="../media/nuns-at-thrangu-carry-rocks-for-community-road.jpeg"
+                                alt="Featured Item"
+                            />
+                        </figure>
+
+                        <figure>
+                            <img
+                                src="../media/nuns-at-thrangu-carry-rocks-for-community-road-3.jpeg"
+                                alt="Featured Item"
+                            />
+                        </figure>
+
+                        <figure>
+                            <img
+                                src="../media/nuns-at-thrangu-carry-rocks-for-community-road-2.jpeg"
+                                alt="Featured Item"
+                            />
+                        </figure>
+                    </div>
+
+                    <div
+                        style="
+                            padding: 50px 0 60px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        "
+                    >
+                        <form
+                            action="https://www.paypal.com/donate"
+                            method="post"
+                            target="_top"
+                        >
+                            <input
+                                type="hidden"
+                                name="hosted_button_id"
+                                value="72MBFD3XEAHJY"
+                            />
+                            <button
+                                class="paypal-btn extra-big"
+                                border="0"
+                                name="submit"
+                                title="PayPal - The safer, easier way to pay online!"
+                                alt="Donate with PayPal button"
+                            >
+                                Donate
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 167.6 166.6"
+                                    class="paypal-btn-link-svg"
+                                >
+                                    <g
+                                        fill="none"
+                                        stroke="var(--dark-text)"
+                                        stroke-width="20"
+                                        stroke-linecap="round"
+                                    >
+                                        <path
+                                            d="M132.5 80.3v54.4c0 12.1-9.8 22-22 22H32c-12.1 0-21.9-9.9-21.9-22V56a22 22 0 0122-22h54.8"
+                                        />
+                                        <path
+                                            d="M71.7 96.2L136.2 32l21.4-22M157.6 10h-46.3M157.6 10v46.3"
+                                        />
+                                    </g>
+                                </svg>
                             </button>
                         </form>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <img
+                    id="footer-painted-wood"
+                    src="../media/painted-wood-cropped-3.png"
+                    alt=""
+                />
 
-                    </nav>
-                </div>
-            </div>
+                <p>
+                    Copyright &copy; 2020 New Vision - Design:
+                    <a
+                        href="https://templatemo.com"
+                        rel="sponsored"
+                        target="_parent"
+                        title="css templates"
+                        >TemplateMo</a
+                    >
+                </p>
+            </footer>
         </div>
 
-        <div class="row">
-            <div class="col-12">
-                <img src="../media/many-nuns-on-steps.jpeg" alt="Nuns on the steps of Thrangu Nunnery" class="hero" />
-            </div>
-        </div>
-
-        <!-- Main -->
-        <main>
-            <!-- Welcome section -->
-            <section class="tm-welcome">
-                <div class="row">
-                    <div class="col-12" style="text-align:center;">
-                        <h2 class="tm-section-header">Thrangu Kong Jo Sherab Ling Nunnery</h2>
-                    </div>
-                </div>
-
-                <figure class="hero">
-                    <img src="../media/thrangu-gompa-map.png">
-                    <figcaption>
-                        Thrangu Nunnery approximate location in Kham, Eastern Tibet
-                    </figcaption>
-                </figure>
-
-                <div class="row tm-welcome-row" style="margin-top: 0;">
-                    <div class="tm-about">
-
-                        <div class="col-12 tm-media tm-media-v-center">
-                            <p>Thrangu Kong Jo Sherab Ling Nunnery is an affiliate of Thrangu Monastery in Kham, Eastern
-                                Tibet. This thriving Buddhist community houses over 100 nuns in Yushu,
-                                Qinghai, near the
-                                town of Jiegu.
-                            </p>
-                        </div>
-
-                        <!-- two-column image section -->
-                        <div class="row">
-
-                            <div class="col-md-6">
-                                <div class="tm-about-1">
-                                    <img src="../media/Lodroe-Nyima-Rinpoche.png" alt="Image" class="img-fluid mb-5">
-                                    <p>
-                                        The nunnery is in a very remote area. The nuns are poor and currently have no
-                                        source of income other than what they are able to obtain by begging and what
-                                        their families provide. Under the direction of Lodroe Nyima Rinpoche, they are
-                                        currently looking at ways to become self-sustaining while simultaneously
-                                        supplying some of the crucial needs of the local community.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="tm-about-1">
-                                    <img src="../media/pool-2.png" alt="Image" class="img-fluid mb-5">
-                                    <p>
-                                        One way they have started supporting themselves is by operating a spring-fed
-                                        swimming pool, which is located right next to the monastery. Donations from Help
-                                        Tibetan Nuns, Inc. made the transformation of this naturally occurring healing
-                                        spring into a Olympic-sized swimming pool possible. There is also a plan to
-                                        build a medical clinic and train the nuns to provide care for the local
-                                        community.
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- end two-column image section -->
-                        </div>
-                        <div class="col-12 tm-media tm-media-v-center">
-                            <p>
-                                Since its founding in 2011, Help Tibetan Nuns, Inc. has been supporting the
-                                Thrangu Kong Jo Sherab Ling Nunnery, and there is still so much more
-                                to be done. Each year we have given funds to support their most critical needs.
-
-                            </p>
-                    </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Featured -->
-            <section>
-                <div class="row">
-                    <div class="col-12" style="text-align:center">
-                        <h2 class="tm-section-header">Nuns Building a Community Road at Thrangu
-                        </h2>
-                    </div>
-                </div>
-
-                <!-- Carousel -->
-                <div id="thrangu-gallery">
-                    <figure>
-                        <img src="../media/nuns-at-thrangu-carry-rocks-for-community-road.jpeg" alt="Featured Item">
-                    </figure>
-
-                    <figure>
-                        <img src="../media/nuns-at-thrangu-carry-rocks-for-community-road-3.jpeg" alt="Featured Item">
-                    </figure>
-
-                    <figure>
-                        <img src="../media/nuns-at-thrangu-carry-rocks-for-community-road-2.jpeg" alt="Featured Item">
-                    </figure>
-
-                </div>
-
-                <div style="padding: 50px 0 60px; display: flex; justify-content: center; align-items: center;">
-                    <form action="https://www.paypal.com/donate" method="post" target="_top" >
-                        <input type="hidden" name="hosted_button_id" value="72MBFD3XEAHJY" />
-                        <button  class="paypal-btn extra-big" border="0"
-                            name="submit" title="PayPal - The safer, easier way to pay online!"
-                            alt="Donate with PayPal button">
-                        Donate
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.6 166.6" class="paypal-btn-link-svg"><g fill="none" stroke="var(--dark-text)" stroke-width="20" stroke-linecap="round"><path d="M132.5 80.3v54.4c0 12.1-9.8 22-22 22H32c-12.1 0-21.9-9.9-21.9-22V56a22 22 0 0122-22h54.8"/><path d="M71.7 96.2L136.2 32l21.4-22M157.6 10h-46.3M157.6 10v46.3"/></g></svg>
-                        </button>
-                    </form>
-                </div>
-            </section>
-
-
-        </main>
-        <footer>
-            <img id="footer-painted-wood" src="../media/painted-wood-cropped-3.png" alt="" />
-
-            <p>
-                Copyright &copy; 2020 New Vision - Design: <a href="https://templatemo.com" rel="sponsored"
-                    target="_parent" title="css templates">TemplateMo</a>
-            </p>
-        </footer>
-    </div>
-
-    <script src="../js/jquery-3.4.1.min.js"></script>
-    <script src="../slick/slick.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/templatemo-script.js"></script>
-</body>
-
+        <script src="../js/jquery-3.4.1.min.js"></script>
+        <script src="../slick/slick.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/templatemo-script.js"></script>
+    </body>
 </html>
