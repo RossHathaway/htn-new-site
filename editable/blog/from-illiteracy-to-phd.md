@@ -4,12 +4,12 @@ title: 'From Illiteracy to PhD:'
 subtitle: How Exiled Tibetan Buddhist Nuns Are Ensuring Gender Parity
 description: Article from The Wire on gender's effects in Buddhist monasticism
 author: Lama Yeshe Wangmo
-
 ---
+
 <figure class="blog-photo">
 
-  
-![](/media/hhdl.png)_</figure>_
+<img src="../media/hhdl" alt="HH Dalai Lama">
+</figure>
 
 _“Some feminists from the West could accuse me by saying, ‘The Dalai Lama is the authority but he doesn’t help the nuns.’”_
 

@@ -6,7 +6,7 @@
 <h4 style="text-align:center">2019</h4>
 <hr>
 
-![](../media/celebration-of-tibet-flyer.jpg)
+<img src="../media/celebration-of-tibet-flyer">
 
 **_The Cultural Center of Cape Cod_**_,_ 307 Old Main Street, South Yarmouth, MA
 
@@ -20,7 +20,7 @@ Exhibition in the Board Room Gallery will feature Tibetan inspired paintings, th
 
 This documentary provides a glimpse into a world rarely seen by the West and tells the incredible story of two Westerners working side-by-side with Tibetan seamstresses to reclaim a piece of history. This film will be screened in the main hall of the Cultural Center of Cape Cod.
 
-Tickets are $10 and can be purchased through [https://www.cultural-center.org/#home](https://www.cultural-center.org/#home "https://www.cultural-center.org/#home")
+Tickets are $10 and can be purchased through [https://www.cultural-center.org/#home](https://www.cultural-center.org/#home 'https://www.cultural-center.org/#home')
 
 •••••••••••••••••••
 
@@ -30,7 +30,7 @@ Tickets are $10 and can be purchased through [https://www.cultural-center.org/#h
 
 Featuring a traditional Tibetan dance performance, a dissolution ceremony of a sand mandala for compassion which Tibetan lamas have created onsite over the course of a week, and a surprise guest speaker. Includes hors d’oeuvres, beverages and a movie ticket for “The Last Dalai Lama?” film which will be screened at 7 pm at Cape Cinema, walking distance from the museum.
 
-**VIP Reception & Movie Tickets** are $75 can be purchased through [https://www.ccmoa.org/](https://www.ccmoa.org/ "https://www.ccmoa.org/")
+**VIP Reception & Movie Tickets** are $75 can be purchased through [https://www.ccmoa.org/](https://www.ccmoa.org/ 'https://www.ccmoa.org/')
 
 •••••••••••••••••••
 
@@ -42,7 +42,7 @@ Twenty-four years after his first film about the 14th Dalai Lama, director Micke
 
 “A surplus of wisdom and benevolence radiates from ‘The Last Dalai Lama?’” – The New York Times
 
-Tickets are $15 and can be purchased through [https://www.capecinema.com/coming-soon](https://www.capecinema.com/coming-soon "https://www.capecinema.com/coming-soon")
+Tickets are $15 and can be purchased through [https://www.capecinema.com/coming-soon](https://www.capecinema.com/coming-soon 'https://www.capecinema.com/coming-soon')
 
 Tickets for any of these events can also be purchased by contacting Palma Puzzuoli at 973-876-6822 or by email Puzzuoli@att.net.
 
