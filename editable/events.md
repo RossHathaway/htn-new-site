@@ -6,7 +6,7 @@
 <h4 style="text-align:center">2019</h4>
 <hr>
 
-<img src="../media/celebration-of-tibet-flyer">
+<img src="../media/celebration-of-tibet-flyer.jpg">
 
 **_The Cultural Center of Cape Cod_**_,_ 307 Old Main Street, South Yarmouth, MA
 
