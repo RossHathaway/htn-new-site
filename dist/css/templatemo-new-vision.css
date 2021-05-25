@@ -30,7 +30,7 @@ figure {
 }
 
 body {
-    font-family: "Open Sans", Arial, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-size: 1.4rem;
     font-weight: bold;
     background-color: var(--light-bg-1);
@@ -56,7 +56,7 @@ p {
     line-height: 1.5;
 }
 
-div[role="doc-subtitle"] {
+div[role='doc-subtitle'] {
     text-align: center;
     font-size: 1.5rem;
     margin-bottom: 1rem;
@@ -81,7 +81,7 @@ img {
     display: none;
 }
 
-#donate-btn-form-widescreen > input[type="image"] {
+#donate-btn-form-widescreen > input[type='image'] {
     width: 160px;
 }
 
@@ -90,7 +90,7 @@ img {
     align-self: center;
 }
 
-.donate-btn-form-info-section > input[type="image"] {
+.donate-btn-form-info-section > input[type='image'] {
     width: 160px;
 }
 
@@ -230,6 +230,19 @@ figcaption {
 }
 
 /* page specific styles */
+.tm-new-board-blog-section {
+    padding: 15px;
+}
+
+.tm-new-board-blog-img {
+    float: left;
+    max-height: 300px;
+    max-width: 300px;
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    margin: 15px 15px 0 0;
+}
 
 @media (max-width: 1096px) {
     .container-fluid {
@@ -248,7 +261,7 @@ figcaption {
         flex-direction: column;
         justify-content: center;
     }
-    #donate-btn-form-smallscreen > input[type="image"] {
+    #donate-btn-form-smallscreen > input[type='image'] {
         width: 120px;
     }
 }
@@ -275,7 +288,7 @@ figcaption {
 }
 
 .tm-site-name {
-    font-family: "Langar";
+    font-family: 'Langar';
     font-weight: 900;
     letter-spacing: 0.01em;
     text-align: center;
@@ -573,10 +586,10 @@ nav > ul > li {
 }
 
 .slick-dots li button:before {
-    font-family: "Font Awesome 5 Free";
+    font-family: 'Font Awesome 5 Free';
     font-size: 30px;
     font-weight: 900;
-    content: "\f068";
+    content: '\f068';
     color: var(--light-bg-2);
     opacity: 1;
     width: 30px;

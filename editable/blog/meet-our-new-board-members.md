@@ -1,0 +1,22 @@
+---
+date: 2021-05-24T16:22:44.000+00:00
+title: Meet our New Board Members
+subtitle: ''
+description: HTN has entered a growth period, and part of that growth is standardizing institutional procedures and enlarging its Board of Trustees, to better balance the various tasks that come with fundraising, publicity, and philanthropy. Three Board members – founder Amy McCracken, Lama Karma Drodhul, and Palma Puzzuoli – continue to serve. This spring, Amy Schwartz retired from the Board, and three new members accepted our request to serve.
+author: HTN Staff
+---
+
+HTN has entered a growth period, and part of that growth is standardizing institutional procedures and enlarging its Board of Trustees, to better balance the various tasks that come with fundraising, publicity, and philanthropy. Three Board members – founder Amy McCracken, Lama Karma Drodhul, and Palma Puzzuoli – continue to serve. This spring, Amy Schwartz retired from the Board, and three new members accepted our request to serve. Read more about them below.
+
+<div class="tm-new-board-blog-section">
+<img src="../media/jess.png" class="tm-new-board-blog-img">
+Jess McNally: Jess grew up in Alberta, Canada, and attended Stanford University where she rowed in the Crew program and received her Bachelor’s and Master’s of Science degrees in Earth Systems. She began practicing in the Zen Buddhist tradition in 2009, and lived for three years at Zen Mountain Monastery in New York State before finding her way to Tibetan Buddhism. She took vows as a novice nun from Thrangu Rinpoche at Thrangu Monastery in Yushu, Qinghai in 2015. She met and made friends with some of the Thrangu nuns, did a lengthy solo meditation retreat in a cave high up in the Himalayas, and spent the better part of three years upholding the monastic vows. Currently Jess is a Facilitator with Tergar, the organization led by meditation master Yongey Mingyur Rinpoche. She owns and operates an organic tea business called Natur’el Tea in Banff National Park, Canada. She also works as web design and marketing consultant. She enjoys skiing, biking, and the outdoor life with her puppy, Pema. Jess brings a range of skills and talents to the Board. Thank you for your service, Jess!
+</div>
+<div class="tm-new-board-blog-section">
+<img src="../media/miriam.png" class="tm-new-board-blog-img">
+Miriam Weber: Miriam is from Maryland, near Washington DC, and moved to California in the early 1990s to do postgraduate studies at UCDavis. She stayed in California, and began a 20 year teaching career with California State University at Monterey Bay. Miriam met the Dharma in 2000 and began attending teachings. Recently, she and her husband moved to Cape Cod where she met Amy McCracken and began attending the KKSG study group affiliated with KTD monastery. In the fall of 2019, Miriam was fortunate to go on Pilgrimage to visit several major Buddhist sites in Nepal and India. There she visited two nunneries and saw firsthand how devoted the nuns are in their studies and service. Thank you and welcome, Miriam!
+</div>
+<div class="tm-new-board-blog-section">
+<img src="../media/Karma-Dawa.png" class="tm-new-board-blog-img">
+Yan Zhao Ciupak (Dharma name: Karma Dawa): Yan is an Associate Professor of Sociology at Northern Michigan University. With a strong desire to relieve suffering, she also received training and certification as a Grief Support Specialist and advocate for inclusive bereavement policies and compassion-based end-of-life care. Yan grew up at the base of Mount Wutai, one of China's four sacred mountains, which is associated with Manjushri, the buddha of wisdom. She witnessed a steady stream of pilgrims on the mountain during her childhood: lamas and practitioners, some doing full prostrations up the mountain. Yan came to the US in 2003 to pursue doctoral studies in the Sociology of Education. She explored many wisdom traditions but committed fully to Tibetan Buddhism when she met His Holiness Karmapa in 2018 and took refuge with him. She has been conducting research and giving presentations to raise cultural awareness about authentic Tibetan Buddhist perspectives on living, dying, and being. Yan actively assists lamas and dharma teachers at KTD in Woodstock, NY. Yan has wanted to help nuns for many years now and is thrilled to offer her many gifts to the Board. Thank you so much, Yan!
+</div>
