@@ -229,6 +229,48 @@ figcaption {
     padding-right: 40px;
 }
 
+#mc_embed_signup {
+    width: 100%;
+    background-color: var(--accent-7);
+    padding: 1.5em 10px;
+    margin-bottom: 35px;
+}
+
+#mc_embed_signup h2 {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.mc-input-container {
+    display: flex;
+}
+
+.mc-field-group {
+    padding: 10px;
+}
+
+#mc_embed_signup input[type='text'],
+#mc_embed_signup input[type='email'] {
+    min-width: 290px;
+    width: 100%;
+    border-radius: 6px;
+    height: 2em;
+}
+
+#mc_embed_signup #mc-submit {
+    text-align: center;
+}
+
+#mc_embed_signup #mc-submit input {
+    background-color: var(--accent-1);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 6px 20px;
+    border-radius: 6px;
+}
+
 /* page specific styles */
 .tm-new-board-blog-section {
     padding: 15px;
