@@ -276,6 +276,10 @@ figcaption {
     border-radius: 6px;
 }
 
+.tm-spaced-p {
+    margin-bottom: 10px;
+}
+
 /* page specific styles */
 .tm-new-board-blog-section {
     padding: 15px;
