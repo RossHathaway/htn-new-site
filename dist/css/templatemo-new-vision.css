@@ -244,22 +244,27 @@ figcaption {
 
 .mc-input-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .mc-field-group {
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 340px 1 1;
 }
 
 #mc_embed_signup input[type='text'],
 #mc_embed_signup input[type='email'] {
-    min-width: 290px;
-    width: 100%;
+    /* width: 340px; */
     border-radius: 6px;
     height: 2em;
 }
 
 #mc_embed_signup #mc-submit {
     text-align: center;
+    margin-top: 20px;
 }
 
 #mc_embed_signup #mc-submit input {
