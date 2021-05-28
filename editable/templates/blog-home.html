@@ -330,8 +330,8 @@
 
                     <div class="row tm-welcome-row">
                         <ol style="list-style-type: none">
-                            <%- posts .sort((first, second)=> { return
-                            first.date < second.date ? 1 : -1 }) .map(post=> `
+                            <%- posts.sort((first, second)=> { return first.date
+                            < second.date ? 1 : -1 }) .map(post=> `
                             <li style="padding: 1rem">
                                 <a
                                     href="./${post.fileName.split('.')[0]}.html"
