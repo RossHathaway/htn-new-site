@@ -75,6 +75,10 @@ img {
     width: 100%;
 }
 
+.tm-h4 {
+    margin-bottom: 10px;
+}
+
 #donate-btn-form-widescreen {
     position: absolute;
     top: 22px;
