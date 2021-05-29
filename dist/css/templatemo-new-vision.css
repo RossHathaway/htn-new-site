@@ -277,7 +277,7 @@ figcaption {
 }
 
 .tm-spaced-p {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 /* page specific styles */
@@ -504,6 +504,13 @@ nav > ul > li {
     padding: 30px 30px 30px 30px;
     margin: 30px 0;
     font-size: 2.4rem;
+}
+
+.tm-section-header-small {
+    margin-top: 35px;
+    padding: 25px 30px;
+    width: 100%;
+    text-align: center;
 }
 
 @media (max-width: 500px) {
