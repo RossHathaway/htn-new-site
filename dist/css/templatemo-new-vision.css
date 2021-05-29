@@ -159,28 +159,63 @@ img {
     align-self: center;
 }
 
-#thrangu-gallery {
+.thrangu-gallery {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
 }
 
-#thrangu-gallery figure {
+.thrangu-gallery figure {
     margin: 1rem;
 }
 
 @media (max-width: 1196px) {
-    #thrangu-gallery figure:first-child {
+    .thrangu-gallery figure:first-child {
         order: 1;
     }
 
-    #thrangu-gallery figure:last-child {
+    .thrangu-gallery figure:last-child {
         order: 2;
     }
 
-    #thrangu-gallery figure:nth-of-type(2) {
+    .thrangu-gallery figure:nth-of-type(2) {
         order: 3;
+    }
+}
+
+.thrangu-gallery.auspicious-roof {
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.thrangu-gallery.auspicious-roof img {
+    height: 350px;
+    margin: 1rem;
+}
+
+@media (min-width: 843px) {
+    .thrangu-gallery.auspicious-roof img:first-child {
+        margin-right: 0.5rem;
+    }
+    .thrangu-gallery img:last-child {
+        margin-left: 0.5rem;
+    }
+}
+
+@media (max-width: 843px) {
+    .thrangu-gallery.auspicious-roof {
+        flex-direction: column;
+    }
+    .thrangu-gallery.auspicious-roof img {
+        width: 300px;
+        height: auto;
+    }
+    .thrangu-gallery.auspicious-roof img:first-child {
+        margin-bottom: 0.5rem;
+    }
+    .thrangu-gallery.auspicious-roof img:last-child {
+        margin-top: 0.5rem;
     }
 }
 
