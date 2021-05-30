@@ -240,6 +240,47 @@ img {
     }
 }
 
+/* .thrangu-gallery */
+.roof-pics-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.roof-pics-1 > img {
+    max-height: 800px;
+}
+
+.roof-pics-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.roof-pics-2 > img {
+    max-width: 570px;
+}
+
+.roof-pics-3 {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 570px;
+}
+.roof-pics-3 img {
+    max-height: 486px;
+    flex-shrink: 1;
+    min-width: 0;
+}
+
+@media (max-width: 576px) {
+    /* make column  */
+    .roof-pics-3 {
+        flex-wrap: wrap;
+    }
+    .roof-pics-3 img {
+        max-height: 313px;
+    }
+}
+
 figure.hero {
     /* our board page */
     width: 100%;
