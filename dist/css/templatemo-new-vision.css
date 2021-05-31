@@ -44,7 +44,6 @@ h4 {
 body {
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 1.4rem;
-    font-weight: bold;
     background-color: var(--light-bg-1);
     color: var(--dark-text);
     overflow-x: hidden;
