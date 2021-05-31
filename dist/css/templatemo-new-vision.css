@@ -244,19 +244,25 @@ img {
 .roof-pics-1 {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    max-width: calc(100vw - 30px);
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .roof-pics-1 > img {
-    max-height: 800px;
+    max-height: 589px;
 }
 
 .roof-pics-2 {
     display: flex;
     flex-direction: column;
+    gap: 5px;
 }
 
-.roof-pics-2 > img {
+.roof-pics-2 > figure {
     max-width: 570px;
 }
 
@@ -264,6 +270,8 @@ img {
     display: flex;
     flex-wrap: nowrap;
     max-width: 570px;
+    justify-content: center;
+    gap: 5px;
 }
 .roof-pics-3 img {
     max-height: 486px;
