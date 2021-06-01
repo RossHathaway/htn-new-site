@@ -174,11 +174,6 @@ img {
     color: var(--accent-4);
 }
 
-.tm-link-card-bottom {
-    margin-top: auto;
-    align-self: center;
-}
-
 .thrangu-gallery {
     display: flex;
     justify-content: space-around;
@@ -695,9 +690,22 @@ nav > ul > li {
 .tm-dotted-box {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: var(--accent-7);
     padding: 24px;
     height: 100%;
+}
+
+.tm-dotted-box figure {
+    margin-bottom: 30px;
+    /* margin-top: auto; */
+    align-content: flex-end;
+    min-width: 0;
+    flex: 1 1 300px;
+}
+
+.tm-dotted-box figure img {
+    width: 100%;
 }
 
 .tm-article-title {
@@ -712,7 +720,8 @@ nav > ul > li {
 }
 
 .tm-article-text {
-    margin-bottom: 30px;
+    padding-bottom: 30px;
+    margin-bottom: auto;
 }
 
 .tm-carousel {
