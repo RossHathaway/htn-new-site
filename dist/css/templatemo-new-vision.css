@@ -423,8 +423,7 @@ figcaption {
 }
 
 .header-painted-wood {
-    width: 100%;
-    max-height: 175px;
+    max-height: 100px;
     margin-bottom: 1rem;
 }
 
@@ -435,6 +434,7 @@ figcaption {
         inset -15px 0 0 var(--light-bg-1), inset 0 -80px 30px #34663d,
         inset 0 60px 30px #488c64;
     background-clip: content-box;
+    text-align: center;
 }
 
 .tm-site-name {
