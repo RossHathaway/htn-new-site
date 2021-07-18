@@ -1,19 +1,27 @@
-const fs = require('fs')
 const rw = require('rw-stream')
+const readDir = require('recursive-readdir')
 
-const files = fs.readdirSync('./dist')
+const files = readDir('./dist', [ignoreFunc], readDirCb)
 
-const htmlFiles = files.filter((file) => file.endsWith('.html'))
+function ignoreFunc(file, stats) {
+    return !file.endsWith('.html') && !stats.isDirectory()
+}
 
-for (const file of htmlFiles) {
-    console.log('file', file)
+function readDirCb(err, result) {
+    if (err) {
+        throw new Error(err)
+    }
 
-    // const {fd, readStream, writeStream} = await rw(path, options);
+    for (const file of result) {
+        console.log('file', file)
 
-    // create read stream from file
-    // make sure chunk does not end with any of these chars: /index.htm
-    // if so, add to chunk
-    // if not, check for existence of /index.html and replace with ''
-    // check for existence of .html and replace with ''
-    // write chunk to file
+        // const {fd, readStream, writeStream} = await rw(path, options);
+
+        // create read stream from file
+        // make sure chunk does not end with any of these chars: /index.htm
+        // if so, add to chunk
+        // if not, check for existence of /index.html and replace with ''
+        // check for existence of .html and replace with ''
+        // write chunk to file
+    }
 }

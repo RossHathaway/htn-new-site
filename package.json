@@ -29,6 +29,7 @@
   "dependencies": {
     "instant.page.es5": "^2.0.0",
     "markdown-it": "^12.0.2",
+    "recursive-readdir": "^2.2.2",
     "rw-stream": "^0.3.3"
   }
 }
