@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "blog-posts": "node editable/make-blog",
     "build-event-page": "node editable/build-events",
-    "build": "npm run blog-posts && npm run build-event-page"
+    "build": "npm run blog-posts && npm run build-event-page && cp ./node_modules/instant.page/instantpage.js ./dist/js/instantpage.js"
   },
   "repository": {
     "type": "git",
