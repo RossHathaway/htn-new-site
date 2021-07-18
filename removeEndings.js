@@ -15,6 +15,9 @@ async function readDirCb(err, result) {
 
     for (const file of result) {
         const { fd, readStream, writeStream } = await rw(file, {})
-        readStream.pipe(replaceStream('/index.html', '')).pipe(writeStream)
+        readStream
+            .pipe(replaceStream('index.html', ''))
+            .pipe(replaceStream('.html', ''))
+            .pipe(writeStream)
     }
 }
