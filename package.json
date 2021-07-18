@@ -10,7 +10,7 @@
     "build": "npm run blog-posts && npm run build-event-page",
     "copyModules": "cp ./node_modules/instant.page.es5/instantpage.es5.js ./dist/js/instantpage.js",
     "removeEndings": "node ./removeEndings.js",
-    "buildProd": "npm run blog-posts && npm run build-event-page && npm run copyModules"
+    "buildProd": "npm run blog-posts && npm run build-event-page && npm run copyModules && npm run removeEndings"
   },
   "repository": {
     "type": "git",
