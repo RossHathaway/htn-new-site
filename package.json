@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "blog-posts": "node editable/make-blog",
     "build-event-page": "node editable/build-events",
-    "build": "npm run blog-posts && npm run build-event-page && cp ./node_modules/instant.page/instantpage.js ./dist/js/instantpage.js"
+    "build": "npm run blog-posts && npm run build-event-page && cp ./node_modules/instant.page.es5/instantpage.es5.js ./dist/js/instantpage.js"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
     "gray-matter": "^4.0.2"
   },
   "dependencies": {
-    "instant.page": "^5.1.0",
+    "instant.page.es5": "^2.0.0",
     "markdown-it": "^12.0.2"
   }
 }
