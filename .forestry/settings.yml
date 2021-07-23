@@ -5,10 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: editable/events.md
+  path: src/editable/events.md
   label: events
 - type: directory
-  path: editable/blog
+  path: src/editable/blog
   label: blog
   create: all
   match: "**/*"
