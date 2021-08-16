@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "newBuild": "npx @11ty/eleventy",
     "test": "echo \"Error: no test specified\" && exit 1",
     "blog-posts": "node editable/make-blog",
     "build-event-page": "node editable/build-events",
@@ -23,6 +25,7 @@
   },
   "homepage": "https://github.com/RossHathaway/htn-new-site#readme",
   "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
     "ejs": "^3.1.5",
     "gray-matter": "^4.0.2"
   },
