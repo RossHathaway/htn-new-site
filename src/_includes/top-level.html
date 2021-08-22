@@ -29,7 +29,7 @@
 
     <body>
         <div class="container-fluid">
-            {% include "partials/header.html" %}
+            {% include "partials/header.html" %} {{ aboveMain | safe }}
 
             <main>{{ content | safe }}</main>
 
