@@ -12,12 +12,12 @@ Undaunted, the Thrangu Nuns help to repair a road near their nunnery:
 
 <div class="thrangu-gallery">
 <figure>
-<img src="../media/nuns-at-thrangu-carry-rocks-for-community-road.jpeg" alt="Featured Item">
+<img src="/media/nuns-at-thrangu-carry-rocks-for-community-road.jpeg" alt="Featured Item">
 </figure>
 <figure>
-<img src="../media/nuns-at-thrangu-carry-rocks-for-community-road-3.jpeg" alt="Featured Item">
+<img src="/media/nuns-at-thrangu-carry-rocks-for-community-road-3.jpeg" alt="Featured Item">
 </figure>
 <figure>
-<img src="../media/nuns-at-thrangu-carry-rocks-for-community-road-2.jpeg" alt="Featured Item">
+<img src="/media/nuns-at-thrangu-carry-rocks-for-community-road-2.jpeg" alt="Featured Item">
 </figure>
 </div>

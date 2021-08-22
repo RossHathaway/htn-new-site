@@ -15,4 +15,4 @@ IN THE LAST STRETCH UP THE MOUNTAIN!**
 
 <figure class="blog-photo">
 
-<img src="../media/sittingonmountain.jpg" alt="someone on a mountain"></figure>
+<img src="/media/sittingonmountain.jpg" alt="someone on a mountain"></figure>

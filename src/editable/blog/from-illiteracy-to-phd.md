@@ -8,7 +8,7 @@ author: Lama Yeshe Wangmo
 
 <figure class="blog-photo">
 
-<img src="../media/hhdl.png" alt="HH Dalai Lama">
+<img src="/media/hhdl.png" alt="HH Dalai Lama">
 </figure>
 
 _“Some feminists from the West could accuse me by saying, ‘The Dalai Lama is the authority but he doesn’t help the nuns.’”_

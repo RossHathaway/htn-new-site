@@ -9,7 +9,7 @@ author: Jess McNally
 ---
 
 <figure class="blog-photo">  
-<img src="../media/nun-above-road.jpg" alt="nun high above a road"/>
+<img src="/media/nun-above-road.jpg" alt="nun high above a road"/>
 </figure>
 
 Imagine you are a nun, living at a Tibetan Buddhist nunnery in the Himalayan region – Tibet, Nepal, India or Bhutan. You have no possessions, except perhaps a photograph or two of your family members, and maybe a cheap cell phone so you can contact them. Everything else – your crimson robes and yellow outer ceremonial robe; your shoes, books, bedding, toiletries, and so forth – is provided by your nunnery, which has changed very little in the decades (or centuries) since it was built. You live there from a young age; you learn to read there, you eat and sleep there, and you do whatever is expected of you in upholding the dharma (the teachings of the Buddha). You learn to chant pujas in the large communal shrine hall. Perhaps you are chosen to participate in special practice retreats. Occasionally, if you are very lucky, you will have a chance to go on a short pilgrimage.

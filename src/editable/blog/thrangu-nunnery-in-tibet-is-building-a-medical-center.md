@@ -20,7 +20,7 @@ The nunnery, under the direction of Lodroe Nyima Rinpoche, is currently looking 
 <div class="center" style="margin: 30px 0 20px">
   <figure>
     <img
-      src="../media/Lodroe-Nyima-Rinpoche.png"
+      src="/media/Lodroe-Nyima-Rinpoche.png"
       alt="Lodroe Nyima Rinpoche, director of Thrangu Nunnery"
     />
     <figcaption style="padding: 0; text-align: center">Lodroe Nyima Rinpoche</figcaption>
