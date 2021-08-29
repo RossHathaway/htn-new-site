@@ -9,10 +9,7 @@
         <ol style="list-style-type: none">
             {% for post in collections.blog %}
             <li style="padding: 1rem">
-                <a
-                    href="../blog/${post.data.fileName.split('.')[0]}/"
-                    style="font-size: 1.6rem"
-                >
+                <a href={{ post.url }} style="font-size: 1.6rem">
                     {{post.data.title}}
                 </a>
                 <br />
