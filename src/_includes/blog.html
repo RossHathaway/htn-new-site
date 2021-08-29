@@ -1,0 +1,15 @@
+{% extends "top-level.html" %}
+
+<section class="tm-welcome">
+    <% if (title) { %>
+    <div class="row">
+        <div class="col-12" style="text-align: center">
+            <h2 class="tm-section-header"><%- title %></h2>
+        </div>
+    </div>
+    <% } %>
+
+    <div class="row tm-welcome-row">
+        <div class="tm-featured tm-blog-main"><%- postHtml %></div>
+    </div>
+</section>

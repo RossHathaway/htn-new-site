@@ -1,0 +1,31 @@
+{% extends "top-level.html" %}
+
+<section class="tm-welcome">
+    <div class="row">
+        <div class="col-12" style="text-align: center">
+            <h2 class="tm-section-header">Blog</h2>
+        </div>
+    </div>
+
+    <div class="row tm-welcome-row">
+        <ol style="list-style-type: none">
+            {% include "partials/post-list.html" %}
+            <!-- <%- posts.sort((first,
+            second)=> { return first.date < second.date ? 1 : -1 }) .map(post=>
+            ` -->
+            {% for item in postListItems %}
+            <li style="padding: 1rem">
+                <a
+                    href="../blog/${post.fileName.split('.')[0]}.html"
+                    style="font-size: 1.6rem"
+                >
+                    ${post.title}
+                </a>
+                <br />
+                ${new Date(post.date).toDateString().slice(4)} -
+                ${post.description}
+            </li>
+            {% endfor %}
+        </ol>
+    </div>
+</section>
