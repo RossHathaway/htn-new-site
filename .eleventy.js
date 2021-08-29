@@ -7,6 +7,18 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('src/media')
     eleventyConfig.addPassthroughCopy('src/js')
 
+    eleventyConfig.addFilter('dateFilter', (date) =>
+        new Date(date).toDateString().slice(4)
+    )
+
+    eleventyConfig.addCollection('blog', (collection) => {
+        return collection
+            .getFilteredByGlob('./src/blog/*.md')
+            .sort((first, second) =>
+                first.data.date < second.data.date ? 1 : -1
+            )
+    })
+
     // 404 not working
     // eleventyConfig.setBrowserSyncConfig({
     //     callbacks: {
