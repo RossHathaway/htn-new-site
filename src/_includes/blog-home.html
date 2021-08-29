@@ -16,14 +16,14 @@
             {% for item in postListItems %}
             <li style="padding: 1rem">
                 <a
-                    href="../blog/${post.fileName.split('.')[0]}.html"
+                    href="../blog/${post.data.fileName.split('.')[0]}/"
                     style="font-size: 1.6rem"
                 >
-                    ${post.title}
+                    ${post.data.title}
                 </a>
                 <br />
-                ${new Date(post.date).toDateString().slice(4)} -
-                ${post.description}
+                ${new Date(post.data.date).toDateString().slice(4)} -
+                ${post.data.description}
             </li>
             {% endfor %}
         </ol>
