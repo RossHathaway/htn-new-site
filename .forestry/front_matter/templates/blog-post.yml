@@ -40,7 +40,11 @@ fields:
     required: false
   label: Author
   description: Name of person who wrote the blog post
-pages:
-- editable/blog/imagine-you-are-a-nun.md
-- editable/blog/thrangu-nunnery-in-tibet-is-building-a-medical-center.md
-- editable/blog/we-need-your-help.md
+- name: tags
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: tags
+  description: uses 'posts' for anything in the blog
