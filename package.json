@@ -27,7 +27,8 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "ejs": "^3.1.5",
-    "gray-matter": "^4.0.2"
+    "gray-matter": "^4.0.2",
+    "prettier": "^2.6.2"
   },
   "dependencies": {
     "instant.page.es5": "^2.0.0",
