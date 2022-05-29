@@ -1,0 +1,19 @@
+---
+layout: top-level.html
+---
+
+{% block content %}
+<section class="tm-welcome">
+    {% if title %}
+    <div class="row">
+        <div class="col-12" style="text-align: center">
+            <h2 class="tm-section-header">{{ title | safe }}</h2>
+        </div>
+    </div>
+    {% endif %}
+
+    <div class="row tm-welcome-row">
+        <div class="tm-featured tm-blog-main">{{ content | safe }}</div>
+    </div>
+</section>
+{% endblock %}

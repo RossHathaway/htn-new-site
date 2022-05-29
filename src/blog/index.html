@@ -1,0 +1,22 @@
+{% block content %}
+<section class="tm-welcome">
+    <div class="row">
+        <div class="col-12" style="text-align: center">
+            <h2 class="tm-section-header">Blog</h2>
+        </div>
+    </div>
+    <div class="row tm-welcome-row">
+        <ol style="list-style-type: none">
+            {% for post in collections.blog %}
+            <li style="padding: 1rem">
+                <a href={{ post.url }} style="font-size: 1.6rem">
+                    {{post.data.title}}
+                </a>
+                <br />
+                {{post.data.date | dateFilter}} - {{post.data.description}}
+            </li>
+            {% endfor %}
+        </ol>
+    </div>
+</section>
+{% endblock %}
