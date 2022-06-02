@@ -1,0 +1,41 @@
+<div
+  id="notification"
+  role="alert"
+  aria-live="assertive"
+  aria-atomic="true"
+  class="notification"
+  style="
+    max-width: 20rem;
+    border: 0.5rem solid var(--accent-4);
+    background-color: var(--light-bg-1);
+    padding: 0 0 0.5rem 0.5rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    display: none;
+  "
+>
+  <div>
+    <strong class="mr-auto">Upcoming Event</strong>
+    <button
+      type="button"
+      data-dismiss="toast"
+      aria-label="Close"
+      style="
+        float: right;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1;
+        border: none;
+        background-color: transparent;
+      "
+    >
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div style="font-size: 1rem">
+    Welcome! We have an event in Osterville, MA on June 16 & 17, 10am-4pm. Read
+    more on our
+    <a href="/news/events">events page</a>.
+  </div>
+</div>
